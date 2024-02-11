@@ -362,6 +362,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Collections.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEditorBridge.001.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEditorBridge.005.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEngineBridge.001.ref.dll"
