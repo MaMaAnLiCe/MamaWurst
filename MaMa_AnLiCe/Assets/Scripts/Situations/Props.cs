@@ -8,11 +8,21 @@ using UnityEngine.EventSystems;
 public class Props : MonoBehaviour, IPointerClickHandler
 {
     public InformationSO propInfo;
-    public SituationManager situationManager;
+    public InformationSlice informationSlice;
+    public bool isrunning;
+
+    private void OnMouseDown()
+    {
+        
+    }
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        propInfo.revealed = true;
         StartCoroutine(InformationGathering());
+        InformationSlice infoSlice = Instantiate(informationSlice, UIManager.Instance.transform);
+        infoSlice.InformationSetUp(propInfo, this);
+
     }
 
     public void SetUp(InformationSO information)
@@ -24,9 +34,16 @@ public class Props : MonoBehaviour, IPointerClickHandler
 
     private IEnumerator InformationGathering()
     {
-        Infotory.Instance.gatheredInformations.Add(propInfo);
+        isrunning = true; 
+        while (isrunning)
+        {
+            yield return null;
+        }
+        Logbook.Instance.gatheredInformations.Add(propInfo);
         gameObject.GetComponent<PolygonCollider2D>().enabled = false;
-        situationManager.ReduceInteractionCounter(propInfo.interactionWeight);
+
+
+        GetComponentInParent<SituationHandler>().ReduceInteractionCounter(propInfo.interactionWeight);
         yield return null;
     }
 

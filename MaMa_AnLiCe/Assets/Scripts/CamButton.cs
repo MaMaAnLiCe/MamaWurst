@@ -14,6 +14,7 @@ public class CamButton : MonoBehaviour, IPointerClickHandler
     {
         int currentTime = GameManager.Instance.currentTime;
         GameManager.Instance.LoadSituation(location);
+
     }
 
    

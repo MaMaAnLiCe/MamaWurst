@@ -9,28 +9,28 @@ public class SituationsPerson
     public PersonSO person;
 
 
-    [Dropdown("Informations")]
-    public InformationSO informations;
+    //[Dropdown("Informations")]
+    public List<InformationSO> informations;
 
 
 
-    private DropdownList<InformationSO> Informations()
-    {
-        try
-        {
-            DropdownList<InformationSO> result = new DropdownList<InformationSO>();
-            foreach (InformationSO info in person.information)
-            {
-                result.Add(info.name, info);
-            }
-            return result;
-        }
+    //private DropdownList<InformationSO> Informations()
+    //{
+    //    try
+    //    {
+    //        DropdownList<InformationSO> result = new DropdownList<InformationSO>();
+    //        foreach (InformationSO info in person.information)
+    //        {
+    //            result.Add(info.name, info);
+    //        }
+    //        return result;
+    //    }
 
-        catch
-        {
-            return new DropdownList<InformationSO>();
-        }
-    }
+    //    catch
+    //    {
+    //        return new DropdownList<InformationSO>();
+    //    }
+    //}
 }
 
 

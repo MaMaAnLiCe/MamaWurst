@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SituationManager : MonoBehaviour
+public class SituationHandler : MonoBehaviour
 {
     public Props propPrefab;
     public Person personPrefab;
@@ -33,14 +33,21 @@ public class SituationManager : MonoBehaviour
         }
 
         
-        foreach (SituationsPerson sp in situation.persons)
+        foreach (InformationSO info in situation.Informations)
         {
             Props prop = Instantiate(propPrefab, transform);
-            prop.SetUp(sp.informations);
+            prop.SetUp(info);
 
-            Person person = Instantiate(personPrefab,transform);
-            person.SetUp(sp.person);
+           
         }
+
+        foreach(PersonSO person in situation.persons)
+        {
+            Person personInstance = Instantiate(personPrefab, transform);
+            personInstance.SetUp(person);
+        }
+
+        
     }
 
     public void ReduceInteractionCounter(int amount)
@@ -49,6 +56,8 @@ public class SituationManager : MonoBehaviour
 
         if(interactionCounter <=0)
         {
+            GameManager.Instance.NextDay();
+            UIManager.Instance.SwitchState(2);
             Destroy(gameObject);
         }
     }

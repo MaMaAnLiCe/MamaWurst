@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,9 +6,10 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+    public int dayCount = 5;
     public int currentTime;
     public List<SituationsSO> situations;
-    public SituationManager SituationPrefab;
+    public SituationHandler SituationPrefab;
 
     private void Awake()
     {
@@ -28,14 +30,22 @@ public class GameManager : MonoBehaviour
         {
             if(location == situation.location && currentTime == situation.time)
             {
-                SituationManager situationPrefab = Instantiate(SituationPrefab);
+                SituationHandler situationPrefab = Instantiate(SituationPrefab);
                 situationPrefab.SetUp(situation);
-
+                situation.UpdateInformation();
             }
 
         }
+
+        UIManager.Instance.SwitchState((int)GameState.SituationsState);
     }
-    
 
-
+    internal void NextDay()
+    {
+        currentTime++;
+        if(currentTime >= dayCount)
+        {
+            // game is over yo.
+        }
+    }
 }

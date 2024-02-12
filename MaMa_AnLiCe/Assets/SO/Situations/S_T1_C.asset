@@ -14,4 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: 1
   location: 2
-  persons: []
+  persons:
+  - {fileID: 11400000, guid: eea1b13ba0d13624e902ebb4b656dd1a, type: 2}
+  - {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
+  Informations:
+  - {fileID: 11400000, guid: 3368069e16b05514d9557b98859cf84a, type: 2}
+  - {fileID: 11400000, guid: b2bafcd73de552c4eb542798197ddb7e, type: 2}
+  interactionCounter: 3

@@ -5,7 +5,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Person")]
 public class PersonSO : ScriptableObject
 {
-    [SerializeField] public List<InformationSO> information;
-
     [SerializeField] public Sprite PersonSprite;
 }

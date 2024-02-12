@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: 2
   location: 1
-  persons: []
+  persons:
+  - {fileID: 0}
+  Informations: []
+  interactionCounter: 2
