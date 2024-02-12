@@ -26,6 +26,17 @@ public class InformationFolder : MonoBehaviour, IPointerClickHandler
         }
     }
 
+    private void OnEnable()
+    {
+        if(myInfo != null)
+        {
+            folderImage.sprite = myInfo.revealed ? fullFolder : emptyFolder;
+
+            folderText.text = myInfo.revealed ? myInfo.folderName : "locked";
+        }
+        
+    }
+
     public void SetUp(InformationSO information)
     {
         myInfo = information;

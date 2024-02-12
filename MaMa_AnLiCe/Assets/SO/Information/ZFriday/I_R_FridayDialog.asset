@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_M_Marker
+  m_Name: I_R_FridayDialog
   m_EditorClassIdentifier: 
-  time: 1
+  time: 0
   location: 0
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: 8d1569bc52d97be409dff96b569a97b8, type: 3}
+  propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
   interactionWeight: 1
-  content: A Marker with very sharp edges
-  folderName: Marker?
-  InformationImage: {fileID: 21300000, guid: 98d12bca62b0fcd408460234707e976d, type: 3}
+  content: FridayDialog
+  folderName: FD
+  InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}

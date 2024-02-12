@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
   m_Name: I_M_MysteriousMeat
   m_EditorClassIdentifier: 
-  time: 0
+  time: 4
   location: 0
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 0}
+  propSprite: {fileID: 21300000, guid: 3378568740395d54e8cf4346a48bbae5, type: 3}
   interactionWeight: 1
-  content: 
-  folderName: 
-  InformationImage: {fileID: 0}
+  content: tasty meat
+  folderName: Mysterious Meat...
+  InformationImage: {fileID: 21300000, guid: 9cf34a8dadf86c44fa54640ac1d36419, type: 3}

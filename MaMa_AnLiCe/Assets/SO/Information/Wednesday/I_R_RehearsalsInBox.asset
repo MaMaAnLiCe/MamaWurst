@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
   m_Name: I_R_RehearsalsInBox
   m_EditorClassIdentifier: 
-  time: 0
-  location: 0
+  time: 2
+  location: 2
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 0}
-  interactionWeight: 0
-  content: 
-  folderName: 
-  InformationImage: {fileID: 0}
+  propSprite: {fileID: 21300000, guid: 3c266d8e8370e5245a84c618c8f3ae6e, type: 3}
+  interactionWeight: 1
+  content: Wichtige Proben jo
+  folderName: Rehersals
+  InformationImage: {fileID: 21300000, guid: d916a9310e3e57c488df11fc16d20b90, type: 3}

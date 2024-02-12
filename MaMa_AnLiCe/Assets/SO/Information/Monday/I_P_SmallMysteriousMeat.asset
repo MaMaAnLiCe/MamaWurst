@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: I_P_SmallMysteriousMeat
   m_EditorClassIdentifier: 
   time: 0
-  location: 0
+  location: 1
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 0}
-  interactionWeight: 0
-  content: 
-  folderName: 
-  InformationImage: {fileID: 0}
+  propSprite: {fileID: 21300000, guid: 9851e3494c067144ca9b38e5ab5d1d7c, type: 3}
+  interactionWeight: 1
+  content: Mysterious Meat... Maybe its vegan meat?
+  folderName: Mysterious Meat
+  InformationImage: {fileID: 21300000, guid: a3dfb0cb485eefc4180e30767150e6ea, type: 3}

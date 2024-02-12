@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
   m_Name: I_P_MeltedClothing
   m_EditorClassIdentifier: 
-  time: 0
-  location: 0
+  time: 4
+  location: 1
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 0}
-  interactionWeight: 0
-  content: 
-  folderName: 
-  InformationImage: {fileID: 0}
+  propSprite: {fileID: 21300000, guid: 4e163791b31bd8944849921e1407134f, type: 3}
+  interactionWeight: 1
+  content: shutup im venting over here
+  folderName: vent
+  InformationImage: {fileID: 21300000, guid: 136b0d458c9081d4584989950d02bdbc, type: 3}

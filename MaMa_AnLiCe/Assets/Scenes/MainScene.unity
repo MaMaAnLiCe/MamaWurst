@@ -173,16 +173,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.495283, g: 0.9891093, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 2950893e4f620474e8476135c804350a, type: 3}
   m_Type: 3
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 0
   m_FillAmount: 1
@@ -384,16 +384,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 3
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: fe19014345ac8ad44b5d2184df4a3a16, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1167,10 +1167,16 @@ MonoBehaviour:
   dayCount: 5
   currentTime: 0
   situations:
-  - {fileID: 11400000, guid: 1e9d9a515c92ff543b70859877164fcc, type: 2}
   - {fileID: 11400000, guid: 80167d6726bdc0e408cda65030d694e2, type: 2}
+  - {fileID: 11400000, guid: 1e9d9a515c92ff543b70859877164fcc, type: 2}
   - {fileID: 11400000, guid: bdff50133bc89df479b73ce4051292d5, type: 2}
   - {fileID: 11400000, guid: cb0413334046d05449a99b9b8bc7f7fd, type: 2}
+  - {fileID: 11400000, guid: 6151537dbb97af74ca848ef478d59761, type: 2}
+  - {fileID: 11400000, guid: 7408affa176b3704d951433ae883d493, type: 2}
+  - {fileID: 11400000, guid: 2aa8b230c4ec7074f864e478e26e6efb, type: 2}
+  - {fileID: 11400000, guid: 00ec2c58ae00e264c9170fa1e1cd2751, type: 2}
+  - {fileID: 11400000, guid: 5f12357d142b5ed488c67940d37af85d, type: 2}
+  - {fileID: 11400000, guid: c99582bdcf865c146bcf363d00941ee0, type: 2}
   SituationPrefab: {fileID: 1029124553314419585, guid: b700c1b28bae10c4db357f61bf056562, type: 3}
 --- !u!4 &828898168
 Transform:

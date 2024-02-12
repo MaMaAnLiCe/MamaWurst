@@ -24,6 +24,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        ResetAllInformations();
+    }
+
     public void LoadSituation(Location location)
     {
         foreach(SituationsSO situation in situations)
@@ -46,6 +51,18 @@ public class GameManager : MonoBehaviour
         if(currentTime >= dayCount)
         {
             // game is over yo.
+        }
+    }
+
+    public void ResetAllInformations()
+    {
+        foreach (SituationsSO situation in situations)
+        {
+           foreach(InformationSO info in situation.Informations)
+            {
+                info.revealed = false;
+            }
+
         }
     }
 }

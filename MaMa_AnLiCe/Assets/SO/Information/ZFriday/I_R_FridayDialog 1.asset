@@ -17,8 +17,8 @@ MonoBehaviour:
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 0}
-  interactionWeight: 0
-  content: 
-  folderName: 
-  InformationImage: {fileID: 0}
+  propSprite: {fileID: 21300000, guid: 6c4e55b5cc316c84aae644db6f564d97, type: 3}
+  interactionWeight: 1
+  content: bla bla bla
+  folderName: dialogue
+  InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}

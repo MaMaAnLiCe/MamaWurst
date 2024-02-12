@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
   m_Name: I_M_Slogan
   m_EditorClassIdentifier: 
-  time: 0
+  time: 1
   location: 0
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 0}
+  propSprite: {fileID: 21300000, guid: 47116857e31302a458d7a149003a6eae, type: 3}
   interactionWeight: 1
-  content: 
-  folderName: 
-  InformationImage: {fileID: 0}
+  content: Slogan to motivate employees
+  folderName: Slogan
+  InformationImage: {fileID: 21300000, guid: 11e7f00c869e20a49b020d04a6ee9898, type: 3}

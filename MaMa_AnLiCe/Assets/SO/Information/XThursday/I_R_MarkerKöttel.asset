@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
   m_Name: "I_R_MarkerK\xF6ttel"
   m_EditorClassIdentifier: 
-  time: 0
-  location: 0
+  time: 3
+  location: 2
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 0}
-  interactionWeight: 0
-  content: 
-  folderName: 
-  InformationImage: {fileID: 0}
+  propSprite: {fileID: 21300000, guid: db218b059d288b642b8aeffaf4460b0f, type: 3}
+  interactionWeight: 1
+  content: Very smelly Marker but beatiful color, Marvin Approves
+  folderName: Marker
+  InformationImage: {fileID: 21300000, guid: 41fed5b9c7cfa464b8f1e185b0cb1787, type: 3}

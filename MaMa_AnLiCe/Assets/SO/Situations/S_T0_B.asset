@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: 0
   location: 1
-  persons: []
-  Informations: []
-  interactionCounter: 4
+  persons:
+  - {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}
+  - {fileID: 11400000, guid: eea1b13ba0d13624e902ebb4b656dd1a, type: 2}
+  - {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
+  Informations:
+  - {fileID: 11400000, guid: c70eede7b6d250f4095c1baef9681534, type: 2}
+  - {fileID: 11400000, guid: 346ba1709fb857b4d9645e746c45a238, type: 2}
+  - {fileID: 11400000, guid: 620c6c4824d5df14aad865cbe4f07767, type: 2}
+  interactionCounter: 2
