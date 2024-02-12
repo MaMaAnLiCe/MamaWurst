@@ -13,6 +13,7 @@ public class CamButton : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         int currentTime = GameManager.Instance.currentTime;
+        GameManager.Instance.LoadSituation(location);
     }
 
    

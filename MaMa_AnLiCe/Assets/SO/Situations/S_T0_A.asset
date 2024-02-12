@@ -15,5 +15,8 @@ MonoBehaviour:
   time: 0
   location: 0
   persons:
-  - person: {fileID: 0}
-    informations: {fileID: 0}
+  - person: {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}
+    informations: {fileID: 11400000, guid: f8f2b2c6297bc94458811329730f5c29, type: 2}
+  - person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
+    informations: {fileID: 11400000, guid: f9085de86de637447ad9933fe9e99cc6, type: 2}
+  interactionCounter: 0

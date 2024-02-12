@@ -15,3 +15,5 @@ MonoBehaviour:
   infoType: 0
   person: []
   revealed: 0
+  propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
+  interactionWeight: 0

@@ -6,4 +6,6 @@ using UnityEngine;
 public class PersonSO : ScriptableObject
 {
     [SerializeField] public List<InformationSO> information;
+
+    [SerializeField] public Sprite PersonSprite;
 }
