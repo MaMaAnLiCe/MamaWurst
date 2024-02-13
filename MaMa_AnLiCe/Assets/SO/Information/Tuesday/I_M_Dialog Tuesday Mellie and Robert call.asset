@@ -10,15 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_M_FridayDialog
+  m_Name: I_M_Dialog Tuesday Mellie and Robert call
   m_EditorClassIdentifier: 
-  time: 4
+  time: 1
   location: 0
   infoType: 0
   person: []
   revealed: 0
   propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
-  interactionWeight: 1
-  content: ysdghjksdfhgjhlskrt
-  folderName: Friday
+  interactionWeight: 2
+  content: <b>Mellie:</b><br>This could save us a lot of money.<br><b>Mellie:</b><br>We
+    should get rid of the bodies, my boss said we should throw them into the mix
+    of the mysterious meat.
+  folderName: Tuesday Mellie and Robert calling
   InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}

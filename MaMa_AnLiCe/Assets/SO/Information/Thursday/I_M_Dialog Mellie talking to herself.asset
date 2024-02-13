@@ -10,15 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_R_FridayDialog
+  m_Name: I_M_Dialog Mellie talking to herself
   m_EditorClassIdentifier: 
-  time: 4
-  location: 2
+  time: 3
+  location: 0
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
+  propSprite: {fileID: 21300000, guid: 6c4e55b5cc316c84aae644db6f564d97, type: 3}
   interactionWeight: 1
-  content: FridayDialog
-  folderName: FD
+  content: Mellie talking to herself
+  folderName: '<b>Mellie:</b><br>It''s not my fault! I''m just doing what I''ve been
+    ordered to. It''s not lying if I just tell the good parts.. RIGHT?<br><b>Mellie:</b><br>How
+    do ravens even get into a meat grinder? Mama''s Sausage increases its product
+    range! That''s it! '
   InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}
