@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +12,8 @@ public class GameManager : MonoBehaviour
     public int currentTime;
     public List<SituationsSO> situations;
     public SituationHandler SituationPrefab;
+    public TextMeshProUGUI date;
+    [SerializeField] public List<string> daysOfTheWeek;
 
     private void Awake()
     {
@@ -27,6 +31,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         ResetAllInformations();
+        date.text = daysOfTheWeek[currentTime];
     }
 
     public void LoadSituation(Location location)
@@ -60,6 +65,7 @@ public class GameManager : MonoBehaviour
     internal void NextDay()
     {
         currentTime++;
+        date.text = daysOfTheWeek[currentTime];
         if(currentTime >= dayCount)
         {
             // game is over yo.

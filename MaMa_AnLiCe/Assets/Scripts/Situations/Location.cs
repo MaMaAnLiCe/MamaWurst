@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum Location 
 {
-    A,
-    B,
-    C
+    Marketing,
+    Production,
+    Research
 }

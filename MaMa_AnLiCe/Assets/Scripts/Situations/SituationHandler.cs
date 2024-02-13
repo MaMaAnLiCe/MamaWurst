@@ -7,7 +7,8 @@ public class SituationHandler : MonoBehaviour
     public Props propPrefab;
     public Person personPrefab;
 
-    public int interactionCounter;
+    public int maxInteractionCounter;
+    public int currentInteractionCount;
 
     public SpriteRenderer LocationSpriteRenderer;
 
@@ -15,19 +16,27 @@ public class SituationHandler : MonoBehaviour
     public Sprite LocationBSprite;
     public Sprite LocationCSprite;
 
+
+    [SerializeField] public List<Sprite> interactionSprite;
+    public SpriteRenderer interactionCount;
+
+  
     public void SetUp(SituationsSO situation)
     {
-        interactionCounter = situation.interactionCounter;
+        currentInteractionCount = 0;
+        maxInteractionCounter = situation.interactionCounter;
+
+        interactionCount.sprite = interactionSprite[currentInteractionCount];
 
         switch (situation.location)
         {
-            case Location.A:
+            case Location.Marketing:
                 LocationSpriteRenderer.sprite = LocationASprite;
                 break;
-            case Location.B:
+            case Location.Production:
                 LocationSpriteRenderer.sprite = LocationBSprite;
                 break;
-            case Location.C:
+            case Location.Research:
                 LocationSpriteRenderer.sprite = LocationCSprite;
                 break;
         }
@@ -52,9 +61,11 @@ public class SituationHandler : MonoBehaviour
 
     public void ReduceInteractionCounter(int amount)
     {
-        interactionCounter -= amount;
+        currentInteractionCount += amount;
 
-        if(interactionCounter <=0)
+        interactionCount.sprite = interactionSprite[currentInteractionCount];
+
+        if(currentInteractionCount >= maxInteractionCounter )
         {
             GameManager.Instance.NextDay();
             UIManager.Instance.SwitchState(2);

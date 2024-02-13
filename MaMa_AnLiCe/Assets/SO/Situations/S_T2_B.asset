@@ -21,5 +21,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 593f5d685f47b6143b0c213215d79132, type: 2}
   - {fileID: 11400000, guid: 1fa9fc4faa9989c4fa096dbe4f499770, type: 2}
   - {fileID: 11400000, guid: a5e58f2218c6d294da0203ab8502243a, type: 2}
-  - {fileID: 11400000, guid: 620c6c4824d5df14aad865cbe4f07767, type: 2}
-  interactionCounter: 2
+  interactionCounter: 3

@@ -22,4 +22,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c70eede7b6d250f4095c1baef9681534, type: 2}
   - {fileID: 11400000, guid: 346ba1709fb857b4d9645e746c45a238, type: 2}
   - {fileID: 11400000, guid: 620c6c4824d5df14aad865cbe4f07767, type: 2}
-  interactionCounter: 2
+  interactionCounter: 3
