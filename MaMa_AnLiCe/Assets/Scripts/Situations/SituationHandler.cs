@@ -63,12 +63,12 @@ public class SituationHandler : MonoBehaviour
     {
         currentInteractionCount += amount;
 
-        interactionCount.sprite = interactionSprite[currentInteractionCount];
+        interactionCount.sprite = interactionSprite[Mathf.Clamp(currentInteractionCount, 0, maxInteractionCounter)];
 
         if(currentInteractionCount >= maxInteractionCounter )
         {
             GameManager.Instance.NextDay();
-            UIManager.Instance.SwitchState(2);
+            
             Destroy(gameObject);
         }
     }

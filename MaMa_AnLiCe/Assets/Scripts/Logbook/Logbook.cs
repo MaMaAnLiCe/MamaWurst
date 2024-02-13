@@ -11,7 +11,7 @@ public class Logbook: MonoBehaviour
     public GameObject LogBookGameObject;
     public InformationFolder informationFolder;
     public List<InformationFolder> informationFolders;
-    public List<VerticalLayoutGroup> workdays;
+    public List<GridLayoutGroup> workdays;
 
     private void Awake()
     {

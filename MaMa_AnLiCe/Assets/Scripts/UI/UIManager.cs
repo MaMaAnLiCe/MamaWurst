@@ -8,7 +8,8 @@ public enum GameState
     CamButtonState,
     SituationsState,
     LogbookState,
-    LogbookSituationState
+    LogbookSituationState, 
+    EndOfWeekState
 }
 
 public class UIManager : MonoBehaviour
@@ -17,6 +18,7 @@ public class UIManager : MonoBehaviour
     public GameObject CamButtonCanvas;
     public GameObject LogbookCanvas;
     public GameObject SituationCanvas;
+    public GameObject EndCanvas;
 
     public GameState currentState;
     public Button ConfirmButton;
@@ -44,12 +46,16 @@ public class UIManager : MonoBehaviour
                 CamButtonCanvas.SetActive(true);
                 LogbookCanvas.SetActive(false);
                 SituationCanvas.SetActive(false);
+                EndCanvas.SetActive(false);
+                
                 break;
 
             case GameState.SituationsState:
                 CamButtonCanvas.SetActive(false);
                 LogbookCanvas.SetActive(false);
                 SituationCanvas.SetActive(true);
+                EndCanvas.SetActive(false);
+
 
                 break;
 
@@ -57,6 +63,7 @@ public class UIManager : MonoBehaviour
                 CamButtonCanvas.SetActive(false);
                 SituationCanvas.SetActive(false);               
                 LogbookCanvas.SetActive(true);
+                EndCanvas.SetActive(false);
                 CamButton.interactable = true;
                 ConfirmButton.gameObject.SetActive(false);
                 break;
@@ -66,9 +73,19 @@ public class UIManager : MonoBehaviour
                 CamButtonCanvas.SetActive(false);
                 SituationCanvas.SetActive(false);
                 LogbookCanvas.SetActive(true);
+                EndCanvas.SetActive(false);
                 CamButton.interactable = false;
                 ConfirmButton.gameObject.SetActive(true);
-                break; 
+                break;
+
+
+            case GameState.EndOfWeekState:
+                CamButtonCanvas.SetActive(false);
+                SituationCanvas.SetActive(false);
+                LogbookCanvas.SetActive(false);
+                EndCanvas.SetActive(true);
+                break;
+
         }
         currentState = (GameState)newState;
     }

@@ -139,10 +139,10 @@ MonoBehaviour:
   LocationBSprite: {fileID: 21300000, guid: 89448a3dc11355347a66a6778e7d6d36, type: 3}
   LocationCSprite: {fileID: 21300000, guid: ab3d8b4cd309ced4b8e0475059e751c3, type: 3}
   interactionSprite:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 8512fc4013b020848911753d69f30c47, type: 3}
+  - {fileID: 21300000, guid: 4801f5dfa30304c46b423ab645e145aa, type: 3}
+  - {fileID: 21300000, guid: 31cdef603abc38e4c89f99aecda8125c, type: 3}
+  - {fileID: 21300000, guid: c4f90e8d96f984643bc3a2cd3cc21120, type: 3}
   interactionCount: {fileID: 8783813814877913497}
 --- !u!1 &8204707281807605095
 GameObject:
@@ -170,7 +170,7 @@ Transform:
   m_GameObject: {fileID: 8204707281807605095}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.78, y: 3.33, z: 0}
+  m_LocalPosition: {x: 8.03, y: 1.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -222,7 +222,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.76, y: 3.88}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0

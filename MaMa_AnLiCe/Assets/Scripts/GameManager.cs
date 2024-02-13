@@ -3,12 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    public int dayCount = 5;
+    public int dayCount = 4;
     public int currentTime;
     public List<SituationsSO> situations;
     public SituationHandler SituationPrefab;
@@ -62,14 +62,28 @@ public class GameManager : MonoBehaviour
         return false;
     }
 
-    internal void NextDay()
+    public void NextDay()
     {
         currentTime++;
-        date.text = daysOfTheWeek[currentTime];
         if(currentTime >= dayCount)
         {
-            // game is over yo.
+            
+            UIManager.Instance.SwitchState((int) GameState.EndOfWeekState);
         }
+        else
+        {
+            
+            UIManager.Instance.SwitchState((int) GameState.LogbookState);
+        }
+        try
+        {
+            date.text = daysOfTheWeek[currentTime];
+        }
+        catch
+        {
+            date.text = daysOfTheWeek[0];
+        }
+       
     }
 
     public void ResetAllInformations()
@@ -82,5 +96,16 @@ public class GameManager : MonoBehaviour
             }
 
         }
+    }
+
+    public void ReplayFootage()
+    {
+        currentTime = 0;
+        UIManager.Instance.SwitchState((int)GameState.CamButtonState);
+    }
+
+    public void Report()
+    {
+        SceneManager.LoadScene("StartScene");
     }
 }
