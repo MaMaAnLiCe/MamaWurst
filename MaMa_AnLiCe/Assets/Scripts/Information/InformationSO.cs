@@ -13,9 +13,8 @@ public class InformationSO : ScriptableObject
     [SerializeField] public bool revealed;
     [SerializeField] public Sprite propSprite;
     [SerializeField] public int interactionWeight;
-    [ResizableTextArea] public string detailedDescription;
-    [SerializeField] public string shortDescription;
-    [SerializeField] public string title;
+    [SerializeField] public string content;
+    [SerializeField] public string folderName;
     [SerializeField] public Sprite InformationImage;
 
 }

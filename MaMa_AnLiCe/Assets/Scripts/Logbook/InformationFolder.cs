@@ -32,7 +32,7 @@ public class InformationFolder : MonoBehaviour, IPointerClickHandler
         {
             folderImage.sprite = myInfo.revealed ? fullFolder : emptyFolder;
 
-            folderText.text = myInfo.revealed ? myInfo.folderName : "locked";
+            folderText.text = myInfo.revealed ? myInfo.content : "locked";
         }
         
     }
@@ -43,6 +43,6 @@ public class InformationFolder : MonoBehaviour, IPointerClickHandler
 
         folderImage.sprite = information.revealed ? fullFolder : emptyFolder;
 
-        folderText.text = information.revealed ? information.folderName : "locked";
+        folderText.text = information.revealed ? information.content : "locked";
     }
 }
