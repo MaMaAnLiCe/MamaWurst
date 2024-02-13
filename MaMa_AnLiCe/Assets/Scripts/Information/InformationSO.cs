@@ -16,5 +16,6 @@ public class InformationSO : ScriptableObject
     [SerializeField] public string content;
     [SerializeField] public string folderName;
     [SerializeField] public Sprite InformationImage;
+    [SerializeField] public string shortDescription;
 
 }

@@ -111,8 +111,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.68, y: 0.68, z: 0.68}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6932206936579818370}
   - {fileID: 30914958149788873}
@@ -135,9 +135,9 @@ MonoBehaviour:
   maxInteractionCounter: 0
   currentInteractionCount: 0
   LocationSpriteRenderer: {fileID: 284573533340420244}
-  LocationASprite: {fileID: 21300000, guid: feef5c117b7693b429b55fa7eafa05aa, type: 3}
-  LocationBSprite: {fileID: 21300000, guid: 89448a3dc11355347a66a6778e7d6d36, type: 3}
-  LocationCSprite: {fileID: 21300000, guid: ab3d8b4cd309ced4b8e0475059e751c3, type: 3}
+  LocationASprite: {fileID: 21300000, guid: 76047b6984824af4eb3833776729c964, type: 3}
+  LocationBSprite: {fileID: 21300000, guid: 76047b6984824af4eb3833776729c964, type: 3}
+  LocationCSprite: {fileID: 21300000, guid: 76047b6984824af4eb3833776729c964, type: 3}
   interactionSprite:
   - {fileID: 21300000, guid: 8512fc4013b020848911753d69f30c47, type: 3}
   - {fileID: 21300000, guid: 4801f5dfa30304c46b423ab645e145aa, type: 3}
