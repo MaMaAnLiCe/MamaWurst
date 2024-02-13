@@ -55,6 +55,8 @@ public class UIManager : MonoBehaviour
                 LogbookCanvas.SetActive(false);
                 SituationCanvas.SetActive(true);
                 EndCanvas.SetActive(false);
+                ConfirmButton.gameObject.SetActive(false);
+
 
 
                 break;
@@ -65,7 +67,6 @@ public class UIManager : MonoBehaviour
                 LogbookCanvas.SetActive(true);
                 EndCanvas.SetActive(false);
                 CamButton.interactable = true;
-                ConfirmButton.gameObject.SetActive(false);
                 break;
 
             case GameState.LogbookSituationState:
@@ -74,8 +75,8 @@ public class UIManager : MonoBehaviour
                 SituationCanvas.SetActive(false);
                 LogbookCanvas.SetActive(true);
                 EndCanvas.SetActive(false);
-                CamButton.interactable = false;
                 ConfirmButton.gameObject.SetActive(true);
+                CamButton.interactable = false;
                 break;
 
 

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class GameManager : MonoBehaviour
     public SituationHandler SituationPrefab;
     public TextMeshProUGUI date;
     [SerializeField] public List<string> daysOfTheWeek;
+    [SerializeField] public List<WeekdayButton> FolderButtons;
+    [SerializeField] public List<GridLayoutGroup> Folders;
+
+
 
     private void Awake()
     {
@@ -30,6 +35,8 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        DaySelected(0);
+        FolderButtons[0].Unlock();
         ResetAllInformations();
         date.text = daysOfTheWeek[currentTime];
     }
@@ -65,6 +72,9 @@ public class GameManager : MonoBehaviour
     public void NextDay()
     {
         currentTime++;
+
+        FolderButtons[currentTime-1].Unlock();
+
         if(currentTime >= dayCount)
         {
             
@@ -74,6 +84,7 @@ public class GameManager : MonoBehaviour
         {
             
             UIManager.Instance.SwitchState((int) GameState.LogbookState);
+            DaySelected(currentTime-1);
         }
         try
         {
@@ -107,5 +118,16 @@ public class GameManager : MonoBehaviour
     public void Report()
     {
         SceneManager.LoadScene("StartScene");
+    }
+
+
+    public void DaySelected(int Listindex)
+    {
+        FolderButtons[Listindex].GetComponent<Button>().Select();
+        foreach(GridLayoutGroup folder in Folders)
+        {
+            folder.gameObject.SetActive(Folders.IndexOf(folder) == Listindex);
+               
+        }
     }
 }
