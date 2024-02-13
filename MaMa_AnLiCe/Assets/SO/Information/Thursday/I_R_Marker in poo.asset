@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_M_MysteriousMeat
+  m_Name: I_R_Marker in poo
   m_EditorClassIdentifier: 
-  time: 4
-  location: 0
+  time: 3
+  location: 2
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: 3378568740395d54e8cf4346a48bbae5, type: 3}
+  propSprite: {fileID: 21300000, guid: db218b059d288b642b8aeffaf4460b0f, type: 3}
   interactionWeight: 1
-  content: tasty meat
-  folderName: Mysterious Meat...
-  InformationImage: {fileID: 21300000, guid: 9cf34a8dadf86c44fa54640ac1d36419, type: 3}
+  content: <i>What a unique color for a marker. What a shame to make it go to waste
+    like that<i>
+  folderName: Marker in animal excrements
+  InformationImage: {fileID: 21300000, guid: 41fed5b9c7cfa464b8f1e185b0cb1787, type: 3}

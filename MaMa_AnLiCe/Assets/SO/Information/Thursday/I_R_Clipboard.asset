@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_M_Marker
+  m_Name: I_R_Clipboard
   m_EditorClassIdentifier: 
-  time: 1
-  location: 0
+  time: 3
+  location: 2
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: 8d1569bc52d97be409dff96b569a97b8, type: 3}
+  propSprite: {fileID: 21300000, guid: 3c266d8e8370e5245a84c618c8f3ae6e, type: 3}
   interactionWeight: 1
-  content: A marker <br> <i>And what a bold color</i>
-  folderName: Marker
-  InformationImage: {fileID: 21300000, guid: 98d12bca62b0fcd408460234707e976d, type: 3}
+  content: <iThis paper seems like its missing something</i>
+  folderName: Clipboard with ripped paper
+  InformationImage: {fileID: 21300000, guid: d916a9310e3e57c488df11fc16d20b90, type: 3}

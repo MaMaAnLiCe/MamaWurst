@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_P_HairNet
+  m_Name: I_P_Hairnet
   m_EditorClassIdentifier: 
-  time: 0
+  time: 2
   location: 1
   infoType: 0
   person: []
   revealed: 1
   propSprite: {fileID: 21300000, guid: db218b059d288b642b8aeffaf4460b0f, type: 3}
   interactionWeight: 1
-  content: Very smelly but incredibly effective at keeping others away
-  folderName: Hair Net
+  content: A Ripped hair net<br><i>And why does it smell so weird?</i>
+  folderName: Hairnet
   InformationImage: {fileID: 21300000, guid: 41fed5b9c7cfa464b8f1e185b0cb1787, type: 3}

@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_P_MeltedClothing
+  m_Name: I_R_Raven in vent
   m_EditorClassIdentifier: 
-  time: 4
-  location: 1
+  time: 3
+  location: 2
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: 4e163791b31bd8944849921e1407134f, type: 3}
-  interactionWeight: 1
-  content: shutup im venting over here
-  folderName: vent
-  InformationImage: {fileID: 21300000, guid: 136b0d458c9081d4584989950d02bdbc, type: 3}
+  propSprite: {fileID: 21300000, guid: 3378568740395d54e8cf4346a48bbae5, type: 3}
+  interactionWeight: 999
+  content: A vent..but..<br><i>Is that a... raven?</i>
+  folderName: Raven in vent
+  InformationImage: {fileID: 21300000, guid: 9cf34a8dadf86c44fa54640ac1d36419, type: 3}

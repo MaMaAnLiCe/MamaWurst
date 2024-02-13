@@ -19,6 +19,7 @@ MonoBehaviour:
   revealed: 0
   propSprite: {fileID: 21300000, guid: 4e163791b31bd8944849921e1407134f, type: 3}
   interactionWeight: 1
-  content: Curiously similar to a dripping vent...
-  folderName: Scribbles
+  content: "\"IM FINE IM FINE IM FINE\"<br><i>Wasn\xB4t about to ask but good to
+    know<i>"
+  folderName: Scribbled message
   InformationImage: {fileID: 21300000, guid: 136b0d458c9081d4584989950d02bdbc, type: 3}

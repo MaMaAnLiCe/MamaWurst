@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_R_Clipboard
+  m_Name: I_R_Raven cage
   m_EditorClassIdentifier: 
-  time: 3
+  time: 1
   location: 2
   infoType: 0
   person: []
-  revealed: 0
-  propSprite: {fileID: 21300000, guid: 3c266d8e8370e5245a84c618c8f3ae6e, type: 3}
+  revealed: 1
+  propSprite: {fileID: 21300000, guid: f6a7815d6a0cbb744904143a5b1043b4, type: 3}
   interactionWeight: 1
-  content: tasty doughnut
-  folderName: Clipboard
-  InformationImage: {fileID: 21300000, guid: d916a9310e3e57c488df11fc16d20b90, type: 3}
+  content: A cage filled to the brim with ravens <br><i>Smart little beasts</i>
+  folderName: Raven cage
+  InformationImage: {fileID: 21300000, guid: b6bbaf48baeb05647a148603af555eb0, type: 3}

@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_R_VentAnimal
+  m_Name: I_M_FlickeringLight
   m_EditorClassIdentifier: 
-  time: 3
-  location: 2
+  time: 4
+  location: 0
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: 3378568740395d54e8cf4346a48bbae5, type: 3}
-  interactionWeight: 999
-  content: IT'S A RAT
-  folderName: cute rat
-  InformationImage: {fileID: 21300000, guid: 9cf34a8dadf86c44fa54640ac1d36419, type: 3}
+  propSprite: {fileID: 21300000, guid: 9851e3494c067144ca9b38e5ab5d1d7c, type: 3}
+  interactionWeight: 1
+  content: These lights make you go insane
+  folderName: Flickering light
+  InformationImage: {fileID: 21300000, guid: a3dfb0cb485eefc4180e30767150e6ea, type: 3}

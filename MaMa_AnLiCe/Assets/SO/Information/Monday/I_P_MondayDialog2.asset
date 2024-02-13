@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: I_P_MondayDialog2
   m_EditorClassIdentifier: 
   time: 0
-  location: 0
+  location: 1
   infoType: 0
   person: []
   revealed: 0
