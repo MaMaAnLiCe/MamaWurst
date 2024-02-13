@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_M_ThursdayDialog
+  m_Name: I_M_Porky marketing poster
   m_EditorClassIdentifier: 
   time: 3
   location: 0
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
+  propSprite: {fileID: 21300000, guid: 47116857e31302a458d7a149003a6eae, type: 3}
   interactionWeight: 1
-  content: Thursday Dialogue
-  folderName: TD
-  InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}
+  content: We love porky, and porky loves you<br><i>Thank you porky, youre the best</i>
+  folderName: Porky marketing poster
+  InformationImage: {fileID: 21300000, guid: 11e7f00c869e20a49b020d04a6ee9898, type: 3}

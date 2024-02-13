@@ -10,15 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_M_TuesdayDialog
+  m_Name: I_P_Dialog Wednesday Mellie calling Robert
   m_EditorClassIdentifier: 
-  time: 1
-  location: 0
+  time: 2
+  location: 1
   infoType: 0
   person: []
   revealed: 0
   propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
-  interactionWeight: 2
-  content: Tuesday Dialogue
-  folderName: TD
+  interactionWeight: 1
+  content: '<b>Mellie:</b><br>Where did you even find one? These meat grinders have
+    more rust than clean spots.<br><b>Pete:</b><br>I thought that it was a design
+    choice. Didn''t want to ruin the art by cleaning it.<br><b>Mellie:</b><br>Everything
+    in our company is <i>all natural</i>, that''s what we stand for. '
+  folderName: Wednesday Mellie and Robert calling
   InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}

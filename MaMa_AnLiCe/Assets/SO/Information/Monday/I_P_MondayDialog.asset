@@ -19,6 +19,11 @@ MonoBehaviour:
   revealed: 1
   propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
   interactionWeight: 2
-  content: Dialog Monday
-  folderName: DM
+  content: "<b>Pete:</b><br><i>\u201CMysterious meat\u201D</i>, HA, what a joke.
+    What's mysterious about 4 dead rats interfering  with the sausage production.<br><b>Robert:</b><br>That's
+    my chance to introduce my newest research about meat alternatives. I've been
+    trying some things with some gene manipulations.<br><b>Pete:</b><br>What will
+    the new marketing headline call it? <b>\u201CTASTE THE CITY, NEW YORK'S FLAVOR!\u201C.
+    </b>"
+  folderName: Robert and Pete talking
   InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}

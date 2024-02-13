@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
+  m_Name: I_R_Dialog Robert talking to HOD
+  m_EditorClassIdentifier: 
+  time: 4
+  location: 2
+  infoType: 0
+  person: []
+  revealed: 0
+  propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
+  interactionWeight: 1
+  content: Robert talking to his boss
+  folderName: '<b>Robert:</b><br>Just think about it. We have a bigger menu for our
+    customers, we are self-sustainable with the cockroaches and save money. What
+    does it matter if you''re fired? That''s what I''m here for. I''ll gladly take
+    your spot, boss.<br><b>Robert:</b><br>What do you mean you will take one of us
+    with you? Well you have nothing against me in your hands, so it''s up to Mellie
+    and Pete. I don''t care about them.  '
+  InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}

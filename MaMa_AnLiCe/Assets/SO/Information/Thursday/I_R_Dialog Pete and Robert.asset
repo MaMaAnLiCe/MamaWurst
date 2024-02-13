@@ -10,15 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_P_WednesdayDialog
+  m_Name: I_R_Dialog Pete and Robert
   m_EditorClassIdentifier: 
-  time: 2
-  location: 1
+  time: 3
+  location: 2
   infoType: 0
   person: []
   revealed: 0
   propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
   interactionWeight: 1
-  content: Wednesday Dialogue
-  folderName: WD
+  content: Pete and Robert talking
+  folderName: '<b>Pete:</b><br>Did you just rip away a part of the document?<br><b>Robert:</b><br>If
+    the paper doesn''t say that our health and safety standards are poor then they
+    must be good. And I can keep my position.<br><b>Pete:</b><br>If the smart guy
+    says so.. '
   InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}

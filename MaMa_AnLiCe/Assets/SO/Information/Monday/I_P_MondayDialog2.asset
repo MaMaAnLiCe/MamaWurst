@@ -19,6 +19,9 @@ MonoBehaviour:
   revealed: 0
   propSprite: {fileID: 21300000, guid: 6c4e55b5cc316c84aae644db6f564d97, type: 3}
   interactionWeight: 1
-  content: yo na wie gehts
-  folderName: DM2
+  content: '<b>Robert:</b><br>Mellie, this should be easy  work for you right? I
+    mean you are obviously our best employee.<br><b>Mellie:</b><br>Here we go again,
+    the marketing boss probably won''t let me leave until it''s done..<br>Just like
+    the last 3 weeks. '
+  folderName: Robert and Mellie talking
   InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}
