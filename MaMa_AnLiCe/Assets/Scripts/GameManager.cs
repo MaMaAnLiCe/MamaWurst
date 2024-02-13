@@ -45,6 +45,18 @@ public class GameManager : MonoBehaviour
         UIManager.Instance.SwitchState((int)GameState.SituationsState);
     }
 
+    public bool hasSituation(Location location)
+    {
+        foreach(SituationsSO situation in situations)
+        {
+            if(location == situation.location && currentTime == situation.time)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     internal void NextDay()
     {
         currentTime++;

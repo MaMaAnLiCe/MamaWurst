@@ -3,19 +3,34 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class CamButton : MonoBehaviour, IPointerClickHandler
 {
 
     public Location location;
 
+    [SerializeField] Image myImage;
+
+    [SerializeField] Sprite CamWithActivity;
+    [SerializeField] Sprite CamWithNOActivity;
+
+    private void OnEnable()
+    {
+        myImage.sprite = GameManager.Instance.hasSituation(location) ? CamWithActivity : CamWithNOActivity;
+    }
+
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        if (!GameManager.Instance.hasSituation(location))
+        {
+            return;
+        }
         int currentTime = GameManager.Instance.currentTime;
         GameManager.Instance.LoadSituation(location);
 
     }
 
-   
+
 }
