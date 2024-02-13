@@ -19,7 +19,7 @@ MonoBehaviour:
   revealed: 0
   propSprite: {fileID: 21300000, guid: 3c266d8e8370e5245a84c618c8f3ae6e, type: 3}
   interactionWeight: 1
-  content: 
-  folderName: 
+  content: This paper seems like its missing something
+  folderName: Clipboard with faked statistics
   InformationImage: {fileID: 21300000, guid: d916a9310e3e57c488df11fc16d20b90, type: 3}
   shortDescription: 

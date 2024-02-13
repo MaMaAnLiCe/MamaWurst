@@ -19,7 +19,8 @@ MonoBehaviour:
   revealed: 0
   propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
   interactionWeight: 1
-  content: Mellie talking to her boss
-  folderName: '<b>Mellie:</b><br>Sir! What do you mean that couldn''t be just me?
-    It was my decision to cover our company, and Robert has nothing to do with it.   '
+  content: '<b>Mellie:</b><br>Sir! What do you mean that couldn''t be just me? It
+    was my decision to cover our company, and Robert has nothing to do with it.   '
+  folderName: Mellie talking to her boss
   InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}
+  shortDescription: 
