@@ -19,6 +19,6 @@ MonoBehaviour:
   revealed: 1
   propSprite: {fileID: 21300000, guid: db218b059d288b642b8aeffaf4460b0f, type: 3}
   interactionWeight: 1
-  content: this is definetely Dirt
+  content: Dirt from the cage and shoes <br> <i>Nothing more nothing less</i>
   folderName: Dirt
   InformationImage: {fileID: 21300000, guid: 41fed5b9c7cfa464b8f1e185b0cb1787, type: 3}
