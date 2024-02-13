@@ -9,7 +9,7 @@ public class InformationFolder : MonoBehaviour, IPointerClickHandler
 {
     public InformationSO myInfo;
 
-    [SerializeField] InformationSlice InformationSlicePrefab;
+    [SerializeField] InformationSlice DetailedInfoSlice;
 
     public Image folderImage;
     public TextMeshProUGUI folderText;
@@ -21,7 +21,7 @@ public class InformationFolder : MonoBehaviour, IPointerClickHandler
     {
         if (myInfo.revealed)
         {
-            InformationSlice infoSlice = Instantiate(InformationSlicePrefab,UIManager.Instance.transform);
+            InformationSlice infoSlice = Instantiate(DetailedInfoSlice, UIManager.Instance.transform);
             infoSlice.InformationSetUp(myInfo);
         }
     }
@@ -30,9 +30,9 @@ public class InformationFolder : MonoBehaviour, IPointerClickHandler
     {
         if(myInfo != null)
         {
-            folderImage.sprite = myInfo.revealed ? fullFolder : emptyFolder;
+            folderImage.sprite = myInfo.revealed ? myInfo.InformationImage : emptyFolder;
 
-            folderText.text = myInfo.revealed ? myInfo.folderName : "locked";
+            folderText.text = myInfo.revealed ? myInfo.title : "locked";
         }
         
     }
@@ -43,6 +43,6 @@ public class InformationFolder : MonoBehaviour, IPointerClickHandler
 
         folderImage.sprite = information.revealed ? fullFolder : emptyFolder;
 
-        folderText.text = information.revealed ? information.folderName : "locked";
+        folderText.text = information.revealed ? information.title : "locked";
     }
 }

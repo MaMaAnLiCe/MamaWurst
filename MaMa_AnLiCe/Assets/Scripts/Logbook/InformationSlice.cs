@@ -13,14 +13,14 @@ public class InformationSlice : MonoBehaviour
     public Props prop;
     public InformationSO information;
 
-    public void InformationSetUp(InformationSO information, Props prop)
+    public virtual void InformationSetUp(InformationSO information, Props prop)
     {
         if (information.revealed)
         {
             this.information = information;
             location.text = information.location.ToString();
-            time.text = information.time.ToString();
-            content.text = information.content;
+            time.text = GameManager.Instance.daysOfTheWeek[information.time];
+            content.text = information.detailedDescription;
             informationImage.sprite = information.InformationImage;
             this.prop = prop;
             prop.isrunning = true;
@@ -28,14 +28,14 @@ public class InformationSlice : MonoBehaviour
         }
     }
 
-    public void InformationSetUp(InformationSO information)
+    public virtual void InformationSetUp(InformationSO information)
     {
         if (information.revealed)
         {
             this.information = information;
             location.text = information.location.ToString();
-            time.text = information.time.ToString();
-            content.text = information.content;
+            time.text = GameManager.Instance.daysOfTheWeek[information.time];
+            content.text = information.detailedDescription;
             informationImage.sprite = information.InformationImage;
 
         }
