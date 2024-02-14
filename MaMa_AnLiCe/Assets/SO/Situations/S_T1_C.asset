@@ -17,7 +17,7 @@ MonoBehaviour:
   persons:
   - {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
   Informations:
-  - {fileID: 11400000, guid: 93f6517342c548247a2fc059931abc2d, type: 2}
+  - {fileID: 11400000, guid: 09d47554c58d8bc4cb64f1e59a27a101, type: 2}
   - {fileID: 11400000, guid: 9e1839915af213546a3ee8e2c1dacd69, type: 2}
   - {fileID: 11400000, guid: befbe330061606a4589fde8a90a78c9c, type: 2}
   interactionCounter: 3
