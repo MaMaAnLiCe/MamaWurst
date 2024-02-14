@@ -33,5 +33,3 @@ MonoBehaviour:
   - line: <br><b>Mellie:</b><br>Here we go again, the marketing boss probably won't
       let me leave until it's done..<br>Just like the last 3 weeks.
     person: {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}
-  - line: 
-    person: {fileID: 0}
