@@ -9,6 +9,7 @@ public class Props : MonoBehaviour, IPointerClickHandler
 {
     public InformationSO propInfo;
     public InformationSlice informationSlice;
+    public DialogInformationSlice dialogInformationSlice;
     public bool isrunning;
 
     private void OnMouseDown()
@@ -20,7 +21,16 @@ public class Props : MonoBehaviour, IPointerClickHandler
     {
         propInfo.revealed = true;
         StartCoroutine(InformationGathering());
-        InformationSlice infoSlice = Instantiate(informationSlice, UIManager.Instance.transform);
+        InformationSlice infoSlice;
+        if (propInfo is DialogInormationSO)
+        {
+            infoSlice = Instantiate(dialogInformationSlice, UIManager.Instance.transform);
+        }
+        else
+        {
+            infoSlice = Instantiate(informationSlice, UIManager.Instance.transform);
+        }
+        
         infoSlice.InformationSetUp(propInfo, this);
 
     }
