@@ -22,3 +22,4 @@ MonoBehaviour:
   content: A marker <br> <i>And what a bold color</i>
   folderName: Marker
   InformationImage: {fileID: 21300000, guid: 98d12bca62b0fcd408460234707e976d, type: 3}
+  shortDescription: A marker <br> <i>And what a bold color</i>

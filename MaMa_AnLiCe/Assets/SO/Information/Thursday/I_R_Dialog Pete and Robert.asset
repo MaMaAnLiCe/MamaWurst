@@ -25,4 +25,7 @@ MonoBehaviour:
     says so.. '
   folderName: Pete and Robert talking
   InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}
-  shortDescription: 
+  shortDescription: '<b>Pete:</b><br>Did you just rip away a part of the document?<br><b>Robert:</b><br>If
+    the paper doesn''t say that our health and safety standards are poor then they
+    must be good. And I can keep my position.<br><b>Pete:</b><br>If the smart guy
+    says so.. '

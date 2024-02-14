@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   propInfo: {fileID: 0}
   informationSlice: {fileID: 1295282440811157758, guid: fc406f75d89990b41afb80f17af62d5e, type: 3}
+  isrunning: 0
 --- !u!212 &8098322563729324786
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -85,8 +86,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1176341565
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

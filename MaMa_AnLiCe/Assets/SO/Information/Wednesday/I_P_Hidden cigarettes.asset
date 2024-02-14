@@ -22,3 +22,4 @@ MonoBehaviour:
   content: A bunch of cigarette butts <br> <i>And what a hiding spot</i>
   folderName: Hidden cigarettes
   InformationImage: {fileID: 21300000, guid: a3dfb0cb485eefc4180e30767150e6ea, type: 3}
+  shortDescription: A bunch of cigarette butts <br> <i>And what a hiding spot</i>

@@ -22,3 +22,4 @@ MonoBehaviour:
   content: These lights make you go insane
   folderName: Flickering light
   InformationImage: {fileID: 21300000, guid: a3dfb0cb485eefc4180e30767150e6ea, type: 3}
+  shortDescription: These lights make you go insane
