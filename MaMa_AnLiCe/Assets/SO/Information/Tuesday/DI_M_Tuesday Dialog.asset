@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_M_Dialog Tuesday Mellie and Robert call
+  m_Script: {fileID: 11500000, guid: d1c94d0af3c36384fbad7a5699ae1e95, type: 3}
+  m_Name: DI_M_Tuesday Dialog
   m_EditorClassIdentifier: 
-  time: 1
+  time: 0
   location: 0
   infoType: 0
   person: []
@@ -27,3 +27,9 @@ MonoBehaviour:
   shortDescription: <b>Mellie:</b><br>This could save us a lot of money.<br><b>Mellie:</b><br>We
     should get rid of the bodies, my boss said we should throw them into the mix
     of the mysterious meat.
+  dialogLines:
+  - line: <b>Mellie:</b><br>This could save us a lot of money.
+    person: {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}
+  - line: <br><b>Mellie:</b><br>We should get rid of the bodies, my boss said we
+      should throw them into the mix of the mysterious meat.
+    person: {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}

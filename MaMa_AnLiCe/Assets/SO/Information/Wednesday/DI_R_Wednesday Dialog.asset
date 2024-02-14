@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_R_Dialog Wednesday Robert calling Mellie
+  m_Script: {fileID: 11500000, guid: d1c94d0af3c36384fbad7a5699ae1e95, type: 3}
+  m_Name: DI_R_Wednesday Dialog
   m_EditorClassIdentifier: 
-  time: 2
-  location: 2
+  time: 0
+  location: 0
   infoType: 0
   person: []
   revealed: 0
@@ -31,3 +31,17 @@ MonoBehaviour:
     that it''s enriched with iron.<br><b>Robert:</b><br>And what is even up with
     Petes clothes? Tell him to get rid of the safety clothes before the media finds
     out about me.. i mean it. '
+  dialogLines:
+  - line: <b>Robert:</b><br>I took the probes off of a clean one, don't worry. My
+      boss will never find out about this.
+    person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
+  - line: '<br><b>Robert:</b><br>Just say that it''s enriched with iron.<br><b>Robert:</b><br>And
+      what is even up with Petes clothes? Tell him to get rid of the safety clothes
+      before the media finds out about me.. i mean it. '
+    person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
+  - line: '<b>Robert:</b><br>I took the probes off of a clean one, don''t worry.
+      My boss will never find out about this.<br><b>Robert:</b><br>Just say that
+      it''s enriched with iron.<br><b>Robert:</b><br>And what is even up with Petes
+      clothes? Tell him to get rid of the safety clothes before the media finds out
+      about me.. i mean it. '
+    person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}

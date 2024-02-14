@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_P_Dialog Wednesday Mellie calling Robert
+  m_Script: {fileID: 11500000, guid: d1c94d0af3c36384fbad7a5699ae1e95, type: 3}
+  m_Name: DI_P_Wednesday Dialog
   m_EditorClassIdentifier: 
-  time: 2
-  location: 1
+  time: 0
+  location: 0
   infoType: 0
   person: []
   revealed: 0
@@ -29,3 +29,13 @@ MonoBehaviour:
     have more rust than clean spots.<br><b>Pete:</b><br>I thought that it was a design
     choice. Didn''t want to ruin the art by cleaning it.<br><b>Mellie:</b><br>Everything
     in our company is <i>all natural</i>, that''s what we stand for. '
+  dialogLines:
+  - line: <b>Mellie:</b><br>Where did you even find one? These meat grinders have
+      more rust than clean spots.
+    person: {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}
+  - line: <br><b>Pete:</b><br>I thought that it was a design choice. Didn't want
+      to ruin the art by cleaning it.
+    person: {fileID: 11400000, guid: eea1b13ba0d13624e902ebb4b656dd1a, type: 2}
+  - line: '<br><b>Mellie:</b><br>Everything in our company is <i>all natural</i>,
+      that''s what we stand for. '
+    person: {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}

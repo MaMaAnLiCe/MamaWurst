@@ -9,15 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_M_Mellie talking to HOD
+  m_Script: {fileID: 11500000, guid: d1c94d0af3c36384fbad7a5699ae1e95, type: 3}
+  m_Name: DI_M_FridayDialog
   m_EditorClassIdentifier: 
-  time: 4
+  time: 0
   location: 0
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
+  propSprite: {fileID: 21300000, guid: 6c4e55b5cc316c84aae644db6f564d97, type: 3}
   interactionWeight: 1
   content: '<b>Mellie:</b><br>Sir! What do you mean that couldn''t be just me? It
     was my decision to cover our company, and Robert has nothing to do with it.   '
@@ -26,3 +26,7 @@ MonoBehaviour:
   shortDescription: '<b>Mellie:</b><br>Sir! What do you mean that couldn''t be just
     me? It was my decision to cover our company, and Robert has nothing to do with
     it.   '
+  dialogLines:
+  - line: '<b>Mellie:</b><br>Sir! What do you mean that couldn''t be just me? It
+      was my decision to cover our company, and Robert has nothing to do with it.   '
+    person: {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}

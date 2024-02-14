@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_R_Dialog Tuesday Robert and Mellie call
+  m_Script: {fileID: 11500000, guid: d1c94d0af3c36384fbad7a5699ae1e95, type: 3}
+  m_Name: DI_R_Tuesday Dialog 1
   m_EditorClassIdentifier: 
-  time: 1
+  time: 0
   location: 2
   infoType: 0
   person: []
@@ -29,3 +29,12 @@ MonoBehaviour:
     cockroach that can grow to the size of a dog. I'll work on some ravens now.<br><b>Robert:</b><br>But
     we have a lot that didn't survive the tests.<br><b>Robert:</b><br>You're so <i>smart</i>.
     As always. Tell Pete to clean up that mess."
+  dialogLines:
+  - line: "<b>Robert:</b><br>I\xB4ve actually made it, I created the first cockroach
+      that can grow to the size of a dog. I'll work on some ravens now."
+    person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
+  - line: <br><b>Robert:</b><br>But we have a lot that didn't survive the tests.
+    person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
+  - line: <br><b>Robert:</b><br>You're so <i>smart</i>. As always. Tell Pete to clean
+      up that mess.
+    person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}

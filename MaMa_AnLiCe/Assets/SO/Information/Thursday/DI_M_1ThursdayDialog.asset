@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f45768d52b15dd4abfae23d95ab4113, type: 3}
-  m_Name: I_M_Dialog Mellie talking to herself
+  m_Script: {fileID: 11500000, guid: d1c94d0af3c36384fbad7a5699ae1e95, type: 3}
+  m_Name: DI_M_1ThursdayDialog
   m_EditorClassIdentifier: 
-  time: 3
+  time: 0
   location: 0
   infoType: 0
   person: []
@@ -25,7 +25,11 @@ MonoBehaviour:
     range! That''s it! '
   folderName: Mellie talking to herself
   InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}
-  shortDescription: '<b>Mellie:</b><br>It''s not my fault! I''m just doing what I''ve
-    been ordered to. It''s not lying if I just tell the good parts.. RIGHT?<br><b>Mellie:</b><br>How
-    do ravens even get into a meat grinder? Mama''s Sausage increases its product
-    range! That''s it! '
+  shortDescription: 
+  dialogLines:
+  - line: <b>Mellie:</b><br>It's not my fault! I'm just doing what I've been ordered
+      to. It's not lying if I just tell the good parts.. RIGHT?
+    person: {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}
+  - line: '<br><b>Mellie:</b><br>How do ravens even get into a meat grinder? Mama''s
+      Sausage increases its product range! That''s it! '
+    person: {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}
