@@ -135,9 +135,9 @@ MonoBehaviour:
   maxInteractionCounter: 0
   currentInteractionCount: 0
   LocationSpriteRenderer: {fileID: 284573533340420244}
-  LocationASprite: {fileID: 21300000, guid: 76047b6984824af4eb3833776729c964, type: 3}
-  LocationBSprite: {fileID: 21300000, guid: 76047b6984824af4eb3833776729c964, type: 3}
-  LocationCSprite: {fileID: 21300000, guid: 76047b6984824af4eb3833776729c964, type: 3}
+  LocationASprite: {fileID: 21300000, guid: 8161b78281e7df5459000a7560d9f97e, type: 3}
+  LocationBSprite: {fileID: 21300000, guid: 8161b78281e7df5459000a7560d9f97e, type: 3}
+  LocationCSprite: {fileID: 21300000, guid: 8161b78281e7df5459000a7560d9f97e, type: 3}
   interactionSprite:
   - {fileID: 21300000, guid: 8512fc4013b020848911753d69f30c47, type: 3}
   - {fileID: 21300000, guid: 4801f5dfa30304c46b423ab645e145aa, type: 3}
