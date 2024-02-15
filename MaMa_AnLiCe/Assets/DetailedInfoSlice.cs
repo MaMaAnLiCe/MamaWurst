@@ -5,10 +5,11 @@ using TMPro;
 
 public class DetailedInfoSlice : InformationSlice
 {
-    public TextMeshProUGUI detailedInfo;
+    public TextMeshProUGUI TitleTMP;
     public override void InformationSetUp(InformationSO information)
     {
         base.InformationSetUp(information);
-        detailedInfo.text = information.content;
+        TitleTMP.text = information.folderName;
+        content.text = information.content;
     }
 }

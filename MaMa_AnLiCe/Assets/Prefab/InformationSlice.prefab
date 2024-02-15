@@ -192,6 +192,8 @@ MonoBehaviour:
   time: {fileID: 1689181142080091455}
   content: {fileID: 8491466943182039407}
   informationImage: {fileID: 5244573056474953357}
+  prop: {fileID: 0}
+  information: {fileID: 0}
 --- !u!1 &3545010017810878630
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,7 +482,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1712318066808010808
 RectTransform:
   m_ObjectHideFlags: 0

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,7 +10,9 @@ public class DialogInformationSlice : InformationSlice
 
     int lineIndex = 0;
     [SerializeField] float typeWriterDelay;
+    float currentTypeWriterDelay;
     [SerializeField] Button continueButton;
+    [SerializeField] Button skipButton;
 
     public override void InformationSetUp(InformationSO information, Props prop)
     {
@@ -43,17 +46,25 @@ public class DialogInformationSlice : InformationSlice
     public IEnumerator TypeWriter()
     {
         continueButton.gameObject.SetActive(false);
+        skipButton.gameObject.SetActive(true);
         content.text = "";
+        currentTypeWriterDelay = typeWriterDelay;
         foreach (char c in dialoginfo.dialogLines[lineIndex].line)
         {
             content.text += c;
             if(!c.Equals("<") || !c.Equals(">"))
             {
-                yield return new WaitForSeconds(typeWriterDelay);
+                yield return new WaitForSeconds(currentTypeWriterDelay);
             }
         }
-
+        currentTypeWriterDelay = typeWriterDelay;
+        skipButton.gameObject.SetActive(false);
         continueButton.gameObject.SetActive(true);
         lineIndex++;
+    }
+
+    public void skipCurrentLine()
+    {
+        currentTypeWriterDelay = 0;
     }
 }

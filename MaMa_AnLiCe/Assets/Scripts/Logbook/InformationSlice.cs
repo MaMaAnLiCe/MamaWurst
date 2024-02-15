@@ -20,7 +20,15 @@ public class InformationSlice : MonoBehaviour
             this.information = information;
             location.text = information.location.ToString();
             time.text = GameManager.Instance.daysOfTheWeek[information.time];
-            content.text = information.shortDescription;
+            try
+            {
+                content.text = information.shortDescription;
+            }
+            catch
+            {
+
+            }
+            
             informationImage.sprite = information.InformationImage;
             this.prop = prop;
             prop.isrunning = true;
