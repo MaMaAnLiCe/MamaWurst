@@ -25,9 +25,7 @@ public class OptionMenu : MonoBehaviour
 
     [BankRef] public string MusicBank;
 
-    //[SerializeField] Bus SFXBus;
-
-
+    [FMODUnity.ParamRef] string SFXVCA;
 
     //[SerializeField] Bus MusicBus;
 
@@ -54,7 +52,7 @@ public class OptionMenu : MonoBehaviour
 
     public void SetMasterVolume()
     {
-
+       
     }
 
     public void SetSFXVolume()
