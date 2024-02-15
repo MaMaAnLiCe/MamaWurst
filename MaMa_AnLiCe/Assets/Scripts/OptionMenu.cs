@@ -1,8 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using FMODUnity;
+using FMOD.Studio;
 
 public class OptionMenu : MonoBehaviour
 {
@@ -15,7 +18,17 @@ public class OptionMenu : MonoBehaviour
     public Slider BrightnessSlider;
 
     [FMODUnity.BankRef]
-    public string myBank1;
+    public string SFXBank;
+
+    [SerializeField] Bus SFXBus;
+
+    [FMODUnity.BankRef]
+    public string MasterBank;
+
+    [SerializeField] Bus MusicBus;
+
+    [SerializeField] Slider SFXSlider;
+    [SerializeField] Slider MusicSlider;
 
     bool starting;
 
@@ -34,7 +47,17 @@ public class OptionMenu : MonoBehaviour
         //mainMenuCanvas.SetActive(true);
     }
 
-    public void SetVolume()
+    public void SetMasterVolume()
+    {
+
+    }
+
+    public void SetSFXVolume()
+    {
+        SFXBus.setVolume(SFXSlider.value);
+    }
+
+    public void SetMusicVolume()
     {
 
     }
