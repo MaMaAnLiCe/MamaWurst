@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Data;
 using UnityEngine;
 using UnityEngine.UI;
+using FMODUnity;
+
 
 public class DialogInformationSlice : InformationSlice
 {
@@ -45,6 +47,7 @@ public class DialogInformationSlice : InformationSlice
 
     public IEnumerator TypeWriter()
     {
+        RuntimeManager.PlayOneShot(dialoginfo.dialogLines[lineIndex].person.brabbelSound);
         continueButton.gameObject.SetActive(false);
         skipButton.gameObject.SetActive(true);
         content.text = "";
@@ -61,6 +64,7 @@ public class DialogInformationSlice : InformationSlice
         skipButton.gameObject.SetActive(false);
         continueButton.gameObject.SetActive(true);
         lineIndex++;
+
     }
 
     public void skipCurrentLine()

@@ -3,22 +3,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using FMOD;
+using FMODUnity;
 
 public class MouseClick : MonoBehaviour
 {
     public InputActionReference leftClick;
-    public InputAction mouse;
-
+    public EventReference mouseClick;
 
     private void Awake()
     {
-        mouse.Enable();
+        leftClick.action.Enable();
         leftClick.action.performed += Listening;
+        DontDestroyOnLoad(gameObject);
     }
 
     private void Listening(InputAction.CallbackContext obj)
     {
-        
+        try
+        {
+            RuntimeManager.PlayOneShot(mouseClick);
+        }
+        catch
+        {
+
+        }
+
+
     }
 }

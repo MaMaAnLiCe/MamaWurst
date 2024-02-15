@@ -5,6 +5,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using FMODUnity;
 
 public class GameManager : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] public List<string> daysOfTheWeek;
     [SerializeField] public List<WeekdayButton> FolderButtons;
     [SerializeField] public List<GridLayoutGroup> Folders;
+
+    public EventReference reportSound;
 
 
 
@@ -118,6 +121,7 @@ public class GameManager : MonoBehaviour
     public void Report()
     {
         SceneManager.LoadScene("StartScene");
+        RuntimeManager.PlayOneShot(reportSound);
     }
 
 

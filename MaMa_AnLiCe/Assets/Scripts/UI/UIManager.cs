@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using FMODUnity;
 
 public enum GameState
 {
@@ -20,10 +21,16 @@ public class UIManager : MonoBehaviour
     public GameObject LogbookCanvas;
     public GameObject SituationCanvas;
     public GameObject EndCanvas;
+    public GameObject LoadingScreen;
 
     public GameState currentState;
     public Button ConfirmButton;
     public Button CamButton;
+
+    public EventReference situationLoadingSound; 
+    public EventReference logbookLoadingSound;
+
+    public float loadingScreenDuration;
 
     private void Awake()
     {
@@ -41,25 +48,16 @@ public class UIManager : MonoBehaviour
 
     {
         switch ((GameState)newState)
-
         {
             case GameState.CamButtonState:
                 CamButtonCanvas.SetActive(true);
                 LogbookCanvas.SetActive(false);
                 SituationCanvas.SetActive(false);
                 EndCanvas.SetActive(false);
-                
                 break;
 
             case GameState.SituationsState:
-                CamButtonCanvas.SetActive(false);
-                LogbookCanvas.SetActive(false);
-                SituationCanvas.SetActive(true);
-                EndCanvas.SetActive(false);
-                ConfirmButton.gameObject.SetActive(false);
-
-
-
+                StartCoroutine(Loading());
                 break;
 
             case GameState.LogbookState:
@@ -95,5 +93,19 @@ public class UIManager : MonoBehaviour
     public void OpenSettings()
     {
         SceneManager.LoadScene("SettingsScene", LoadSceneMode.Additive);
+    }
+
+
+    public IEnumerator Loading()
+    {
+        LoadingScreen.SetActive(true);
+        RuntimeManager.PlayOneShot(situationLoadingSound);
+        yield return new WaitForSeconds(loadingScreenDuration);
+        LoadingScreen.SetActive(false);
+        CamButtonCanvas.SetActive(false);
+        LogbookCanvas.SetActive(false);
+        SituationCanvas.SetActive(true);
+        EndCanvas.SetActive(false);
+        ConfirmButton.gameObject.SetActive(false);
     }
 }

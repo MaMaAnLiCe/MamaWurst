@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class StartScene : MonoBehaviour
 {
+
+
     public void OpenSettings()
     {
         SceneManager.LoadScene("SettingsScene", LoadSceneMode.Additive);
@@ -15,8 +18,6 @@ public class StartScene : MonoBehaviour
         SceneManager.LoadScene("MainScene");
     }
 
-    public void ShutDown()
-    {
-        Application.Quit();
-    }
+ 
+ 
 }

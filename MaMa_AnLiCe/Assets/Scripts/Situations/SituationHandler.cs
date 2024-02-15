@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class SituationHandler : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class SituationHandler : MonoBehaviour
 
     [SerializeField] public List<Sprite> interactionSprite;
     public SpriteRenderer interactionCount;
+
+    
 
   
     public void SetUp(SituationsSO situation)
@@ -67,9 +70,18 @@ public class SituationHandler : MonoBehaviour
 
         if(currentInteractionCount >= maxInteractionCounter )
         {
-            GameManager.Instance.NextDay();
-            
-            Destroy(gameObject);
+            StartCoroutine(Loading());
         }
+    }
+
+    public IEnumerator Loading()
+    {
+        RuntimeManager.PlayOneShot(UIManager.Instance.logbookLoadingSound);
+        UIManager.Instance.LoadingScreen.SetActive(true);
+        yield return new WaitForSeconds(UIManager.Instance.loadingScreenDuration);
+        UIManager.Instance.LoadingScreen.SetActive(false);
+        GameManager.Instance.NextDay();
+        Destroy(gameObject);
+        yield return null;
     }
 }

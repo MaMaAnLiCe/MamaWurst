@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using FMODUnity;
 
 public class CamButton : MonoBehaviour, IPointerClickHandler
 {
@@ -15,6 +16,8 @@ public class CamButton : MonoBehaviour, IPointerClickHandler
     [SerializeField] Sprite CamWithActivity;
     [SerializeField] Sprite CamWithNOActivity;
 
+    public EventReference nonInteractableSound;
+
     private void OnEnable()
     {
         myImage.sprite = GameManager.Instance.hasSituation(location) ? CamWithActivity : CamWithNOActivity;
@@ -25,6 +28,7 @@ public class CamButton : MonoBehaviour, IPointerClickHandler
     {
         if (!GameManager.Instance.hasSituation(location))
         {
+            RuntimeManager.PlayOneShot(nonInteractableSound);
             return;
         }
         int currentTime = GameManager.Instance.currentTime;
