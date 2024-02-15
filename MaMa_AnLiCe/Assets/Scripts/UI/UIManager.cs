@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public enum GameState
@@ -89,5 +90,10 @@ public class UIManager : MonoBehaviour
 
         }
         currentState = (GameState)newState;
+    }
+
+    public void OpenSettings()
+    {
+        SceneManager.LoadScene("SettingsScene", LoadSceneMode.Additive);
     }
 }

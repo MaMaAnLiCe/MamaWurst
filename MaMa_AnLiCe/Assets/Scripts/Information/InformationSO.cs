@@ -1,3 +1,4 @@
+using FMODUnity;
 using NaughtyAttributes;
 using System.Collections;
 using System.Collections.Generic;
@@ -17,5 +18,7 @@ public class InformationSO : ScriptableObject
     [SerializeField] public string folderName;
     [SerializeField] public Sprite InformationImage;
     [SerializeField] public string shortDescription;
+
+    [SerializeField] EventReference MouseEnter;
 
 }

@@ -30,6 +30,6 @@ MonoBehaviour:
   - line: <b>Robert:</b><br>Mellie, this should be easy  work for you right? I mean
       you are obviously our best employee.
     person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
-  - line: <br><b>Mellie:</b><br>Here we go again, the marketing boss probably won't
-      let me leave until it's done..<br>Just like the last 3 weeks.
+  - line: <b>Mellie:</b><br>Here we go again, the marketing boss probably won't let
+      me leave until it's done..<br>Just like the last 3 weeks.
     person: {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}
