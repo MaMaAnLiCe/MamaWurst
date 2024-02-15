@@ -18,15 +18,20 @@ public class OptionMenu : MonoBehaviour
     public Slider BrightnessSlider;
 
     [FMODUnity.BankRef]
-    public string SFXBank;
-
-    [SerializeField] Bus SFXBus;
-
-    [FMODUnity.BankRef]
     public string MasterBank;
 
-    [SerializeField] Bus MusicBus;
+    [FMODUnity.BankRef]
+    public string SFXBank;
 
+    [BankRef] public string MusicBank;
+
+    //[SerializeField] Bus SFXBus;
+
+
+
+    //[SerializeField] Bus MusicBus;
+
+    [SerializeField] Slider MasterSlider;
     [SerializeField] Slider SFXSlider;
     [SerializeField] Slider MusicSlider;
 
@@ -54,7 +59,7 @@ public class OptionMenu : MonoBehaviour
 
     public void SetSFXVolume()
     {
-        SFXBus.setVolume(SFXSlider.value);
+        //SFXBank.
     }
 
     public void SetMusicVolume()

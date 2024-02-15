@@ -2009,7 +2009,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FullScreenToggle: {fileID: 20077316}
   BrightnessSlider: {fileID: 0}
-  myBank1: 
+  MasterBank: Master
+  SFXBank: SFX
+  MusicBank: 
+  MasterSlider: {fileID: 0}
+  SFXSlider: {fileID: 426313574}
+  MusicSlider: {fileID: 1852019961}
 --- !u!114 &1862426437
 MonoBehaviour:
   m_ObjectHideFlags: 0
