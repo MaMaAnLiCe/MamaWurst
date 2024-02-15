@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 [CreateAssetMenu(fileName = "Information")]
 public class InformationSO : ScriptableObject
 {
@@ -19,6 +20,6 @@ public class InformationSO : ScriptableObject
     [SerializeField] public Sprite InformationImage;
     [SerializeField] public string shortDescription;
 
-    [SerializeField] EventReference MouseEnter;
+    [SerializeField] public EventReference MouseClick;
 
 }

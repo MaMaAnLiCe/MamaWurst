@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
+using FMODUnity;
 
 public class Props : MonoBehaviour, IPointerClickHandler
 {
@@ -40,6 +41,7 @@ public class Props : MonoBehaviour, IPointerClickHandler
         propInfo = information;
         GetComponent<SpriteRenderer>().sprite = information.propSprite;
         gameObject.AddComponent<PolygonCollider2D>();
+        GetComponent<StudioEventEmitter>().EventReference = information.MouseClick;
     }
 
     private IEnumerator InformationGathering()
