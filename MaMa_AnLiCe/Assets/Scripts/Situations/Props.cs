@@ -13,6 +13,9 @@ public class Props : MonoBehaviour, IPointerClickHandler
     public DialogInformationSlice dialogInformationSlice;
     public bool isrunning;
 
+
+
+
     private void OnMouseDown()
     {
         
