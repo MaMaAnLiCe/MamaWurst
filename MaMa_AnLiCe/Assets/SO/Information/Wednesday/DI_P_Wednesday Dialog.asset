@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1c94d0af3c36384fbad7a5699ae1e95, type: 3}
   m_Name: DI_P_Wednesday Dialog
   m_EditorClassIdentifier: 
-  time: 0
-  location: 0
+  time: 2
+  location: 1
   infoType: 0
   person: []
   revealed: 0
@@ -36,7 +36,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  sortingLayer: Background
+  sortingLayer: Props
   OrderInSortingLayer: 0
   dialogLines:
   - line: <b>Mellie:</b><br>Where did you even find one? These meat grinders have

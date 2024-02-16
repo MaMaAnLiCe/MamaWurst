@@ -30,5 +30,5 @@ MonoBehaviour:
       Data3: 960429228
       Data4: 1321463690
     Path: event:/SFX/Wednesday/SibbledMessage
-  sortingLayer: Background
+  sortingLayer: Props
   OrderInSortingLayer: 0

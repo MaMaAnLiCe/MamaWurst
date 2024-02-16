@@ -40,7 +40,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  sortingLayer: Background
+  sortingLayer: Props
   OrderInSortingLayer: 0
   dialogLines:
   - line: <b>Robert:</b><br>Just think about it. We have a bigger menu for our customers,

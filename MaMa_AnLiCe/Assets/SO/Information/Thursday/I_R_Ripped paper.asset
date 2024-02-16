@@ -30,5 +30,5 @@ MonoBehaviour:
       Data3: -122419274
       Data4: -1221519670
     Path: event:/SFX/Thursday/RippedPaper
-  sortingLayer: Background
+  sortingLayer: Props
   OrderInSortingLayer: 0

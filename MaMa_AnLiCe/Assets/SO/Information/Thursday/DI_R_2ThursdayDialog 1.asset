@@ -36,7 +36,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  sortingLayer: Background
+  sortingLayer: Props
   OrderInSortingLayer: 0
   dialogLines:
   - line: <b>Pete:</b><br>Did you just rip away a part of the document?

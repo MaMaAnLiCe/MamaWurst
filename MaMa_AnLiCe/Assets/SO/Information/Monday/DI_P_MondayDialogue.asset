@@ -16,7 +16,7 @@ MonoBehaviour:
   location: 1
   infoType: 0
   person: []
-  revealed: 1
+  revealed: 0
   propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
   interactionWeight: 1
   content: "<b>Pete:</b><br>\u201CMysterious meat\u201D, HA, what a joke. What's
@@ -34,8 +34,8 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  sortingLayer: People
-  OrderInSortingLayer: 10
+  sortingLayer: Props
+  OrderInSortingLayer: 0
   dialogLines:
   - line: "<b>Pete:</b><br>\u201CMysterious meat\u201D, HA, what a joke. What's mysterious
       about 4 dead rats interfering with the sausage production."

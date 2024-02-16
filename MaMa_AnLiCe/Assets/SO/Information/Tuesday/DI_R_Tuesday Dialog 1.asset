@@ -36,8 +36,8 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  sortingLayer: People
-  OrderInSortingLayer: 10
+  sortingLayer: Props
+  OrderInSortingLayer: 0
   dialogLines:
   - line: "<b>Robert:</b><br>I\xB4ve actually made it, I created the first cockroach
       that can grow to the size of a dog. I'll work on some ravens now."

@@ -31,5 +31,5 @@ MonoBehaviour:
       Data3: -1992736359
       Data4: -1105882260
     Path: event:/SFX/Friday/MeltedClothes
-  sortingLayer: Background
+  sortingLayer: Props
   OrderInSortingLayer: 0

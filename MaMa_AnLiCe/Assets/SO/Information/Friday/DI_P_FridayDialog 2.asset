@@ -34,7 +34,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  sortingLayer: Background
+  sortingLayer: Props
   OrderInSortingLayer: 0
   dialogLines:
   - line: '<b>Pete:</b><br>Why do these two even stress so much? This is Mamas Wurst.

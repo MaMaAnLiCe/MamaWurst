@@ -31,5 +31,5 @@ MonoBehaviour:
       Data3: 947213739
       Data4: 1828284274
     Path: event:/SFX/Poster/PosterMatrix
-  sortingLayer: Background
+  sortingLayer: Props
   OrderInSortingLayer: 0

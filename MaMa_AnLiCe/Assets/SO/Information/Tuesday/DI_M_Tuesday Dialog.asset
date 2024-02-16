@@ -34,8 +34,8 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  sortingLayer: People
-  OrderInSortingLayer: 10
+  sortingLayer: Props
+  OrderInSortingLayer: 0
   dialogLines:
   - line: <b>Mellie:</b><br>This could save us a lot of money.
     person: {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}

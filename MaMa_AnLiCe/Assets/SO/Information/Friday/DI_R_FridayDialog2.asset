@@ -34,7 +34,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  sortingLayer: Background
+  sortingLayer: Props
   OrderInSortingLayer: 0
   dialogLines:
   - line: '<b>Robert:</b><br>What do you mean you will take one of us with you? Well

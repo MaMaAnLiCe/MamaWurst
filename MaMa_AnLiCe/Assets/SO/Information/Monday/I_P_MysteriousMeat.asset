@@ -16,7 +16,7 @@ MonoBehaviour:
   location: 1
   infoType: 0
   person: []
-  revealed: 0
+  revealed: 1
   propSprite: {fileID: 21300000, guid: 350677103a01f5248bb78900589f0e86, type: 3}
   interactionWeight: 1
   content: A cooling box with <i>mysterious meat</i>

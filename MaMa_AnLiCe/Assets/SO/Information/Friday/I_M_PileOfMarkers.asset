@@ -31,5 +31,5 @@ MonoBehaviour:
       Data3: 1357706133
       Data4: -1698229085
     Path: event:/SFX/Friday/PileOfMarkers
-  sortingLayer: Background
+  sortingLayer: Props
   OrderInSortingLayer: 0

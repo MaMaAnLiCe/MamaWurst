@@ -32,5 +32,5 @@ MonoBehaviour:
       Data3: 63629500
       Data4: -446871337
     Path: event:/SFX/Thursday/MarkerInPoo
-  sortingLayer: Background
+  sortingLayer: Props
   OrderInSortingLayer: 0

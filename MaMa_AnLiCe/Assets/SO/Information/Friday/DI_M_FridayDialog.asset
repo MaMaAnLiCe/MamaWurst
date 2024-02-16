@@ -33,7 +33,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  sortingLayer: Background
+  sortingLayer: Props
   OrderInSortingLayer: 0
   dialogLines:
   - line: '<b>Mellie:</b><br>Sir! What do you mean that couldn''t be just me? It

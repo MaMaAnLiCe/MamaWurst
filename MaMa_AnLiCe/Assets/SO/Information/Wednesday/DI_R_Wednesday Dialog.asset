@@ -38,7 +38,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  sortingLayer: Background
+  sortingLayer: Props
   OrderInSortingLayer: 0
   dialogLines:
   - line: <b>Robert:</b><br>I took the probes off of a clean one, don't worry. My
@@ -48,9 +48,7 @@ MonoBehaviour:
       what is even up with Petes clothes? Tell him to get rid of the safety clothes
       before the media finds out about me.. i mean it. '
     person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
-  - line: '<b>Robert:</b><br>I took the probes off of a clean one, don''t worry.
-      My boss will never find out about this.<br><b>Robert:</b><br>Just say that
-      it''s enriched with iron.<br><b>Robert:</b><br>And what is even up with Petes
-      clothes? Tell him to get rid of the safety clothes before the media finds out
-      about me.. i mean it. '
+  - line: '<b>Robert:</b><br>And what is even up with Petes clothes? Tell him to
+      get rid of the safety clothes before the media finds out about me.. i mean
+      it. '
     person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
