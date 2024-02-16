@@ -194,7 +194,7 @@ MonoBehaviour:
   logbookButton: {x: 0, y: 0, z: 0}
   dialoginfo: {fileID: 0}
   DialogSoundEmitterPrefab: {fileID: 6142623790849757173, guid: f4fd6a622601b2247aa19d0789d6fe4f, type: 3}
-  typeWriterDelay: 0.1
+  typeWriterDelay: 0.0600001
   continueButton: {fileID: 367261800589867640}
   skipButton: {fileID: 1804241126588703852}
   emitter: {fileID: 3845439953755998633, guid: f4fd6a622601b2247aa19d0789d6fe4f, type: 3}
@@ -266,8 +266,8 @@ MonoBehaviour:
   m_text: "<b>Robert:</b><br>Hallo liebe Leute ich bin Robert. <br> Wie geht's euch
     so? habt ihr Spa\xDF?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: afee6467db5e46d4b910e2bc331417d5, type: 2}
+  m_sharedMaterial: {fileID: -4421177892326550415, guid: afee6467db5e46d4b910e2bc331417d5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using FMODUnity;
+using DG.Tweening;
 
 public class SituationHandler : MonoBehaviour
 {
@@ -20,10 +21,21 @@ public class SituationHandler : MonoBehaviour
 
     [SerializeField] public List<Sprite> interactionSprite;
     public SpriteRenderer interactionCount;
+    public float punchScale;
 
-    
+    private void Start()
+    {
+        Sequence sequence = DOTween.Sequence();
 
-  
+        sequence.Append(transform.DOPunchPosition(/*transform.position + */Vector3.up*punchScale,.1f/*,10*/).SetEase(Ease.Linear));
+
+        sequence.SetLoops(-1);
+
+        sequence.Play();
+
+
+    }
+
     public void SetUp(SituationsSO situation)
     {
         currentInteractionCount = 0;

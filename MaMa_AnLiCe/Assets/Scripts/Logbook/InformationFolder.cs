@@ -4,12 +4,14 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-
+using FMODUnity;
 public class InformationFolder : MonoBehaviour, IPointerClickHandler
 {
     public InformationSO myInfo;
 
     [SerializeField] InformationSlice DetailedInfoSlice;
+
+    public EventReference nonInteractable;
 
     public Image folderImage;
     public TextMeshProUGUI folderText;
@@ -23,6 +25,13 @@ public class InformationFolder : MonoBehaviour, IPointerClickHandler
         {
             InformationSlice infoSlice = Instantiate(DetailedInfoSlice,UIManager.Instance.transform);
             infoSlice.InformationSetUp(myInfo);
+            RuntimeManager.PlayOneShot(myInfo.MouseClick);
+
+        }
+
+        else
+        {
+            RuntimeManager.PlayOneShot(nonInteractable);
         }
     }
 
