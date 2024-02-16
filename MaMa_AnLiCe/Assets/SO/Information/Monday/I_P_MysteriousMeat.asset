@@ -25,10 +25,10 @@ MonoBehaviour:
   shortDescription: A cooling box with <i>mysterious meat</i>
   MouseClick:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 13668771
+      Data2: 1249691100
+      Data3: 394449293
+      Data4: 489335696
+    Path: event:/Story/Mellie/1
   sortingLayer: Props
   OrderInSortingLayer: 0

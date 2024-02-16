@@ -10,6 +10,8 @@ public class DialogInformationSlice : InformationSlice
 {
     public DialogInormationSO dialoginfo;
 
+    public SoundEmitterScript DialogSoundEmitterPrefab;
+
     int lineIndex = 0;
     [SerializeField] float typeWriterDelay;
     float currentTypeWriterDelay;
@@ -48,9 +50,12 @@ public class DialogInformationSlice : InformationSlice
 
     public IEnumerator TypeWriter()
     {
-        emitter.EventReference = dialoginfo.dialogLines[lineIndex].person.brabbelSound;
-        Debug.Log(emitter.EventReference.Path);
-        emitter.Play();
+        SoundEmitterScript brabel = Instantiate(DialogSoundEmitterPrefab);
+        brabel.Initialize(dialoginfo.dialogLines[lineIndex].person.brabbelSound);
+
+        //emitter.EventReference = dialoginfo.dialogLines[lineIndex].person.brabbelSound;
+        //Debug.Log(emitter.EventReference.Path);
+        //emitter.Play();
         //RuntimeManager.PlayOneShot(dialoginfo.dialogLines[lineIndex].person.brabbelSound);
         continueButton.gameObject.SetActive(false);
         skipButton.gameObject.SetActive(true);
@@ -64,7 +69,7 @@ public class DialogInformationSlice : InformationSlice
                 yield return new WaitForSeconds(currentTypeWriterDelay);
             }
         }
-        emitter.Stop();
+        Destroy(brabel.gameObject);
         
         currentTypeWriterDelay = typeWriterDelay;
         skipButton.gameObject.SetActive(false);

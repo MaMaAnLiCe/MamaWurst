@@ -15,8 +15,8 @@ MonoBehaviour:
   PersonSprite: {fileID: 21300000, guid: 13dfe5f5bf8bed542ba162c7f0f48ad5, type: 3}
   brabbelSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1243506096
+      Data2: 1116945906
+      Data3: -755468110
+      Data4: -1880995498
+    Path: event:/Story/Robert/RobertVoice

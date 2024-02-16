@@ -16,7 +16,7 @@ MonoBehaviour:
   location: 1
   infoType: 0
   person: []
-  revealed: 0
+  revealed: 1
   propSprite: {fileID: 21300000, guid: 6c4e55b5cc316c84aae644db6f564d97, type: 3}
   interactionWeight: 1
   content: '<b>Robert:</b><br>Mellie, this should be easy  work for you right? I
