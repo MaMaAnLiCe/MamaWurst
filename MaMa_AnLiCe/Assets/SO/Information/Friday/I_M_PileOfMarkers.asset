@@ -31,3 +31,5 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  sortingLayer: Background
+  OrderInSortingLayer: 0

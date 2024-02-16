@@ -57,7 +57,20 @@ public class UIManager : MonoBehaviour
                 break;
 
             case GameState.SituationsState:
-                StartCoroutine(Loading());
+                if(currentState == GameState.CamButtonState)
+                {
+                    StartCoroutine(Loading());
+                } 
+                else
+                {
+                    LoadingScreen.SetActive(false);
+                    CamButtonCanvas.SetActive(false);
+                    LogbookCanvas.SetActive(false);
+                    SituationCanvas.SetActive(true);
+                    EndCanvas.SetActive(false); 
+                    ConfirmButton.gameObject.SetActive(false);
+                }
+
                 break;
 
             case GameState.LogbookState:

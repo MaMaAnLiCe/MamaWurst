@@ -17,9 +17,18 @@ MonoBehaviour:
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: f6a7815d6a0cbb744904143a5b1043b4, type: 3}
+  propSprite: {fileID: 21300000, guid: a9e0e577cbbd25d479f173ef4e54ed6f, type: 3}
   interactionWeight: 1
   content: A cage filled to the brim with ravens <br><i>Smart little beasts</i>
   folderName: Raven cage
-  InformationImage: {fileID: 21300000, guid: b6bbaf48baeb05647a148603af555eb0, type: 3}
+  InformationImage: {fileID: 21300000, guid: f9169a0514b223b4ba11f72dc0271a98, type: 3}
   shortDescription: A cage filled to the brim with ravens <br><i>Smart little beasts</i>
+  MouseClick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  sortingLayer: Props
+  OrderInSortingLayer: 10

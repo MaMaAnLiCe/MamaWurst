@@ -23,3 +23,12 @@ MonoBehaviour:
   folderName: Marker
   InformationImage: {fileID: 21300000, guid: 98d12bca62b0fcd408460234707e976d, type: 3}
   shortDescription: A marker <br> <i>And what a bold color</i>
+  MouseClick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  sortingLayer: People
+  OrderInSortingLayer: -10

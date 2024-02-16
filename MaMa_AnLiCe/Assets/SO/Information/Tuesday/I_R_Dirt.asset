@@ -17,9 +17,18 @@ MonoBehaviour:
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: db218b059d288b642b8aeffaf4460b0f, type: 3}
+  propSprite: {fileID: 21300000, guid: 5166dae961f0d764798d4a421699bc96, type: 3}
   interactionWeight: 1
   content: Dirt from the cage and shoes <br> <i>Nothing more nothing less</i>
   folderName: Dirt.. just dirt
-  InformationImage: {fileID: 21300000, guid: 41fed5b9c7cfa464b8f1e185b0cb1787, type: 3}
+  InformationImage: {fileID: 21300000, guid: 52a22eb97400bdd4ba78330df024728d, type: 3}
   shortDescription: Dirt from the cage and shoes <br> <i>Nothing more nothing less</i>
+  MouseClick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  sortingLayer: Props
+  OrderInSortingLayer: 10

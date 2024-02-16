@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1c94d0af3c36384fbad7a5699ae1e95, type: 3}
   m_Name: DI_M_Tuesday Dialog
   m_EditorClassIdentifier: 
-  time: 0
+  time: 1
   location: 0
   infoType: 0
   person: []
@@ -23,13 +23,22 @@ MonoBehaviour:
     should get rid of the bodies, my boss said we should throw them into the mix
     of the mysterious meat.
   folderName: Tuesday Mellie and Robert calling
-  InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}
+  InformationImage: {fileID: 21300000, guid: b553947ff6d716c48a8b04468285bae9, type: 3}
   shortDescription: <b>Mellie:</b><br>This could save us a lot of money.<br><b>Mellie:</b><br>We
     should get rid of the bodies, my boss said we should throw them into the mix
     of the mysterious meat.
+  MouseClick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  sortingLayer: People
+  OrderInSortingLayer: 10
   dialogLines:
   - line: <b>Mellie:</b><br>This could save us a lot of money.
     person: {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}
-  - line: <br><b>Mellie:</b><br>We should get rid of the bodies, my boss said we
-      should throw them into the mix of the mysterious meat.
+  - line: <b>Mellie:</b><br>We should get rid of the bodies, my boss said we should
+      throw them into the mix of the mysterious meat.
     person: {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}

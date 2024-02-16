@@ -23,10 +23,19 @@ MonoBehaviour:
     Well you have nothing against me in your hands, so it''s up to Mellie and Pete.
     I don''t care about them.  '
   folderName: Robert the egoist
-  InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}
+  InformationImage: {fileID: 21300000, guid: b553947ff6d716c48a8b04468285bae9, type: 3}
   shortDescription: '<b>Robert:</b><br>What do you mean you will take one of us with
     you? Well you have nothing against me in your hands, so it''s up to Mellie and
     Pete. I don''t care about them.  '
+  MouseClick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  sortingLayer: Background
+  OrderInSortingLayer: 0
   dialogLines:
   - line: '<b>Robert:</b><br>What do you mean you will take one of us with you? Well
       you have nothing against me in your hands, so it''s up to Mellie and Pete.

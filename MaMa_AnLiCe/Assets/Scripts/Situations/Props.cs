@@ -42,7 +42,10 @@ public class Props : MonoBehaviour, IPointerClickHandler
     public void SetUp(InformationSO information)
     {
         propInfo = information;
-        GetComponent<SpriteRenderer>().sprite = information.propSprite;
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.sortingLayerName = propInfo.sortingLayer;
+        spriteRenderer.sortingOrder = propInfo.OrderInSortingLayer;
+        spriteRenderer.sprite = information.propSprite;
         gameObject.AddComponent<PolygonCollider2D>();
         GetComponent<StudioEventEmitter>().EventReference = information.MouseClick;
     }

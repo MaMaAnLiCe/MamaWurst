@@ -24,3 +24,12 @@ MonoBehaviour:
   InformationImage: {fileID: 21300000, guid: 136b0d458c9081d4584989950d02bdbc, type: 3}
   shortDescription: Burned safety clothings<br><i>Kinda smells like the mysterious
     meat</i>
+  MouseClick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  sortingLayer: Background
+  OrderInSortingLayer: 0

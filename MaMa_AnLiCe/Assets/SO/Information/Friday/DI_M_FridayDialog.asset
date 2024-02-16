@@ -22,10 +22,19 @@ MonoBehaviour:
   content: '<b>Mellie:</b><br>Sir! What do you mean that couldn''t be just me? It
     was my decision to cover our company, and Robert has nothing to do with it.   '
   folderName: Mellie talking to her boss
-  InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}
+  InformationImage: {fileID: 21300000, guid: b553947ff6d716c48a8b04468285bae9, type: 3}
   shortDescription: '<b>Mellie:</b><br>Sir! What do you mean that couldn''t be just
     me? It was my decision to cover our company, and Robert has nothing to do with
     it.   '
+  MouseClick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  sortingLayer: Background
+  OrderInSortingLayer: 0
   dialogLines:
   - line: '<b>Mellie:</b><br>Sir! What do you mean that couldn''t be just me? It
       was my decision to cover our company, and Robert has nothing to do with it.   '

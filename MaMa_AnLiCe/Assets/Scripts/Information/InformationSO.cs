@@ -3,6 +3,7 @@ using NaughtyAttributes;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using NaughtyAttributes;
 
 
 [CreateAssetMenu(fileName = "Information")]
@@ -21,5 +22,8 @@ public class InformationSO : ScriptableObject
     [SerializeField] public string shortDescription;
 
     [SerializeField] public EventReference MouseClick;
+
+    [SortingLayer] public string sortingLayer;
+    [SerializeField] public int OrderInSortingLayer;
 
 }

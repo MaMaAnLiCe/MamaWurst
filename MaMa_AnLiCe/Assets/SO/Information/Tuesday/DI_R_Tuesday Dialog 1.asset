@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1c94d0af3c36384fbad7a5699ae1e95, type: 3}
   m_Name: DI_R_Tuesday Dialog 1
   m_EditorClassIdentifier: 
-  time: 0
+  time: 1
   location: 2
   infoType: 0
   person: []
@@ -24,17 +24,26 @@ MonoBehaviour:
     we have a lot that didn't survive the tests.<br><b>Robert:</b><br>You're so <i>smart</i>.
     As always. Tell Pete to clean up that mess."
   folderName: Tuesday Robert and Mellie call
-  InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}
+  InformationImage: {fileID: 21300000, guid: b553947ff6d716c48a8b04468285bae9, type: 3}
   shortDescription: "<b>Robert:</b><br>I\xB4ve actually made it, I created the first
     cockroach that can grow to the size of a dog. I'll work on some ravens now.<br><b>Robert:</b><br>But
     we have a lot that didn't survive the tests.<br><b>Robert:</b><br>You're so <i>smart</i>.
     As always. Tell Pete to clean up that mess."
+  MouseClick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  sortingLayer: People
+  OrderInSortingLayer: 10
   dialogLines:
   - line: "<b>Robert:</b><br>I\xB4ve actually made it, I created the first cockroach
       that can grow to the size of a dog. I'll work on some ravens now."
     person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
-  - line: <br><b>Robert:</b><br>But we have a lot that didn't survive the tests.
+  - line: <b>Robert:</b><br>But we have a lot that didn't survive the tests.
     person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
-  - line: <br><b>Robert:</b><br>You're so <i>smart</i>. As always. Tell Pete to clean
+  - line: <b>Robert:</b><br>You're so <i>smart</i>. As always. Tell Pete to clean
       up that mess.
     person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}

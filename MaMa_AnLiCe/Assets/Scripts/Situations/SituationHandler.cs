@@ -77,8 +77,10 @@ public class SituationHandler : MonoBehaviour
     public IEnumerator Loading()
     {
         RuntimeManager.PlayOneShot(UIManager.Instance.logbookLoadingSound);
+        UIManager.Instance.ConfirmButton.gameObject.SetActive(false);
         UIManager.Instance.LoadingScreen.SetActive(true);
         yield return new WaitForSeconds(UIManager.Instance.loadingScreenDuration);
+        UIManager.Instance.SwitchState((int) GameState.LogbookState);
         UIManager.Instance.LoadingScreen.SetActive(false);
         GameManager.Instance.NextDay();
         Destroy(gameObject);

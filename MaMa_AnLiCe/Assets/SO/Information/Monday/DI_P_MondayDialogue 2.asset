@@ -16,7 +16,7 @@ MonoBehaviour:
   location: 1
   infoType: 0
   person: []
-  revealed: 1
+  revealed: 0
   propSprite: {fileID: 21300000, guid: 6c4e55b5cc316c84aae644db6f564d97, type: 3}
   interactionWeight: 1
   content: '<b>Robert:</b><br>Mellie, this should be easy  work for you right? I
@@ -24,8 +24,17 @@ MonoBehaviour:
     the marketing boss probably won''t let me leave until it''s done..<br>Just like
     the last 3 weeks. '
   folderName: Robert and Meli talking
-  InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}
+  InformationImage: {fileID: 21300000, guid: b553947ff6d716c48a8b04468285bae9, type: 3}
   shortDescription: 
+  MouseClick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  sortingLayer: People
+  OrderInSortingLayer: 10
   dialogLines:
   - line: <b>Robert:</b><br>Mellie, this should be easy  work for you right? I mean
       you are obviously our best employee.

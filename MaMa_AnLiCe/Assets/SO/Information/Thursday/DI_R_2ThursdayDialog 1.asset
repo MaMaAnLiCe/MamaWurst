@@ -16,7 +16,7 @@ MonoBehaviour:
   location: 2
   infoType: 0
   person: []
-  revealed: 1
+  revealed: 0
   propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
   interactionWeight: 1
   content: 'ete:</b><br>Did you just rip away a part of the document?<br><b>Robert:</b><br>If
@@ -24,16 +24,25 @@ MonoBehaviour:
     must be good. And I can keep my position.<br><b>Pete:</b><br>If the smart guy
     says so.. '
   folderName: Pete and Robert talking
-  InformationImage: {fileID: 21300000, guid: 7cd853bfa608ce242a2e552321d74288, type: 3}
+  InformationImage: {fileID: 21300000, guid: b553947ff6d716c48a8b04468285bae9, type: 3}
   shortDescription: '<b>Pete:</b><br>Did you just rip away a part of the document?<br><b>Robert:</b><br>If
     the paper doesn''t say that our health and safety standards are poor then they
     must be good. And I can keep my position.<br><b>Pete:</b><br>If the smart guy
     says so.. '
+  MouseClick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  sortingLayer: Background
+  OrderInSortingLayer: 0
   dialogLines:
-  - line: Pete:</b><br>Did you just rip away a part of the document?
+  - line: <b>Pete:</b><br>Did you just rip away a part of the document?
     person: {fileID: 11400000, guid: eea1b13ba0d13624e902ebb4b656dd1a, type: 2}
-  - line: <br><b>Robert:</b><br>If the paper doesn't say that our health and safety
-      standards are poor then they must be good. And I can keep my position.
+  - line: <b>Robert:</b><br>If the paper doesn't say that our health and safety standards
+      are poor then they must be good. And I can keep my position.
     person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
-  - line: '<br><b>Pete:</b><br>If the smart guy says so.. '
+  - line: '<b>Pete:</b><br>If the smart guy says so.. '
     person: {fileID: 11400000, guid: eea1b13ba0d13624e902ebb4b656dd1a, type: 2}
