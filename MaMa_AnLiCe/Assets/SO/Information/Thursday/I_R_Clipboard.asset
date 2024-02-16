@@ -23,3 +23,12 @@ MonoBehaviour:
   folderName: Clipboard with faked statistics
   InformationImage: {fileID: 21300000, guid: d916a9310e3e57c488df11fc16d20b90, type: 3}
   shortDescription: This paper seems like its missing something
+  MouseClick:
+    Guid:
+      Data1: 488888880
+      Data2: 1160994016
+      Data3: 1754547365
+      Data4: -1009887657
+    Path: event:/SFX/Thursday/Clipboard
+  sortingLayer: Background
+  OrderInSortingLayer: 0

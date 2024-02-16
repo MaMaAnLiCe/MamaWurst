@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5799058613296233222}
   - component: {fileID: 1029124553314419585}
+  - component: {fileID: 7324602187400276063}
   m_Layer: 0
   m_Name: SituationManager
   m_TagString: Untagged
@@ -144,6 +145,37 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 31cdef603abc38e4c89f99aecda8125c, type: 3}
   - {fileID: 21300000, guid: c4f90e8d96f984643bc3a2cd3cc21120, type: 3}
   interactionCount: {fileID: 8783813814877913497}
+--- !u!114 &7324602187400276063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5046757562643447410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -428370001
+      Data2: 1227104777
+      Data3: 1545942455
+      Data4: -350580648
+    Path: event:/SFX/Camera/CameraRunning
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &8204707281807605095
 GameObject:
   m_ObjectHideFlags: 0

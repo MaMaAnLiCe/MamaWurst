@@ -25,10 +25,10 @@ MonoBehaviour:
   shortDescription: A Ripped hairnet, seems like it also has some shed hair in it
   MouseClick:
     Guid:
-      Data1: 13668771
-      Data2: 1249691100
-      Data3: 394449293
-      Data4: 489335696
-    Path: event:/Story/Mellie/1
+      Data1: 1618088269
+      Data2: 1310553264
+      Data3: 1691446939
+      Data4: 457893976
+    Path: event:/SFX/Monday/RippedHairNet
   sortingLayer: Props
   OrderInSortingLayer: 0

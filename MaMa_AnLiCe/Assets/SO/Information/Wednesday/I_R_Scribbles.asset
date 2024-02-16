@@ -25,8 +25,10 @@ MonoBehaviour:
   shortDescription: <b>I LOVE MAMA</b>
   MouseClick:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1223130741
+      Data2: 1092506626
+      Data3: 960429228
+      Data4: 1321463690
+    Path: event:/SFX/Wednesday/SibbledMessage
+  sortingLayer: Background
+  OrderInSortingLayer: 0

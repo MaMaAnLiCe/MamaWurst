@@ -19,7 +19,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] public List<WeekdayButton> FolderButtons;
     [SerializeField] public List<GridLayoutGroup> Folders;
 
-    public EventReference reportSound;
 
 
 
@@ -121,7 +120,6 @@ public class GameManager : MonoBehaviour
     public void Report()
     {
         SceneManager.LoadScene("StartScene");
-        RuntimeManager.PlayOneShot(reportSound);
     }
 
 

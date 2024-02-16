@@ -25,10 +25,10 @@ MonoBehaviour:
   shortDescription: A marker <br> <i>And what a bold color</i>
   MouseClick:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2146070700
+      Data2: 1231436638
+      Data3: 1227577014
+      Data4: -273479993
+    Path: event:/SFX/Tuesday/Marker
   sortingLayer: People
   OrderInSortingLayer: -10

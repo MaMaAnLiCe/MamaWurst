@@ -18,8 +18,17 @@ MonoBehaviour:
   person: []
   revealed: 0
   propSprite: {fileID: 21300000, guid: 3378568740395d54e8cf4346a48bbae5, type: 3}
-  interactionWeight: 999
+  interactionWeight: 1
   content: A vent..but..<br><i>Is that a... raven?</i>
   folderName: Raven in vent
   InformationImage: {fileID: 21300000, guid: 9cf34a8dadf86c44fa54640ac1d36419, type: 3}
   shortDescription: A vent..but..<br><i>Is that a... raven?</i>
+  MouseClick:
+    Guid:
+      Data1: -633373236
+      Data2: 1075630916
+      Data3: 1689685137
+      Data4: -1784420532
+    Path: event:/SFX/Thursday/RavenInVent
+  sortingLayer: Background
+  OrderInSortingLayer: 0

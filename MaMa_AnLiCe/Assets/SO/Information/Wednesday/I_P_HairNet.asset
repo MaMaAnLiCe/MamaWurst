@@ -23,3 +23,12 @@ MonoBehaviour:
   folderName: Hairnet
   InformationImage: {fileID: 21300000, guid: 41fed5b9c7cfa464b8f1e185b0cb1787, type: 3}
   shortDescription: A Ripped hair net<br><i>And why does it smell so weird?</i>
+  MouseClick:
+    Guid:
+      Data1: 1618088269
+      Data2: 1310553264
+      Data3: 1691446939
+      Data4: 457893976
+    Path: event:/SFX/Monday/RippedHairNet
+  sortingLayer: Background
+  OrderInSortingLayer: 0

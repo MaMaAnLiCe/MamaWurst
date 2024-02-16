@@ -23,3 +23,12 @@ MonoBehaviour:
   folderName: 'Ripped paper of faked quota '
   InformationImage: {fileID: 0}
   shortDescription: Ripped paper of faked quota
+  MouseClick:
+    Guid:
+      Data1: 793812976
+      Data2: 1308997484
+      Data3: -122419274
+      Data4: -1221519670
+    Path: event:/SFX/Thursday/RippedPaper
+  sortingLayer: Background
+  OrderInSortingLayer: 0

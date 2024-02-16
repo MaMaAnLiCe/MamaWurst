@@ -26,10 +26,10 @@ MonoBehaviour:
     meat</i>
   MouseClick:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 200650040
+      Data2: 1269221966
+      Data3: -1992736359
+      Data4: -1105882260
+    Path: event:/SFX/Friday/MeltedClothes
   sortingLayer: Background
   OrderInSortingLayer: 0

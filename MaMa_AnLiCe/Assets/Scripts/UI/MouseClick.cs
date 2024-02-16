@@ -9,11 +9,13 @@ public class MouseClick : MonoBehaviour
 {
     public InputActionReference leftClick;
     public EventReference mouseClick;
+    public EventReference mouseClickUp;
 
     private void Awake()
     {
         leftClick.action.Enable();
-        leftClick.action.performed += Listening;
+        leftClick.action.started += Listening;
+        leftClick.action.canceled += ListeningUp;
         DontDestroyOnLoad(gameObject);
     }
 
@@ -22,6 +24,18 @@ public class MouseClick : MonoBehaviour
         try
         {
             RuntimeManager.PlayOneShot(mouseClick);
+        }
+        catch
+        {
+
+        }
+
+
+    }private void ListeningUp(InputAction.CallbackContext obj)
+    {
+        try
+        {
+            RuntimeManager.PlayOneShot(mouseClickUp);
         }
         catch
         {

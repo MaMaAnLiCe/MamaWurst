@@ -15,8 +15,8 @@ MonoBehaviour:
   PersonSprite: {fileID: 21300000, guid: aa2de86b577d13444a578b999132af3b, type: 3}
   brabbelSound:
     Guid:
-      Data1: 13668771
-      Data2: 1249691100
-      Data3: 394449293
-      Data4: 489335696
-    Path: event:/Story/Mellie/1
+      Data1: 1616267243
+      Data2: 1237550102
+      Data3: 686238880
+      Data4: -215053238
+    Path: event:/Story/Mellie/MellieVoice

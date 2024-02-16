@@ -26,10 +26,10 @@ MonoBehaviour:
     today</i>
   MouseClick:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1127997412
+      Data2: 1271566065
+      Data3: 1357706133
+      Data4: -1698229085
+    Path: event:/SFX/Friday/PileOfMarkers
   sortingLayer: Background
   OrderInSortingLayer: 0

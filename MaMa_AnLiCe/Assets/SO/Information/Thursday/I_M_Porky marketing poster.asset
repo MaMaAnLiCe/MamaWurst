@@ -24,3 +24,12 @@ MonoBehaviour:
   InformationImage: {fileID: 21300000, guid: 11e7f00c869e20a49b020d04a6ee9898, type: 3}
   shortDescription: We love porky, and porky loves you<br><i>Thank you porky, youre
     the best</i>
+  MouseClick:
+    Guid:
+      Data1: 386229518
+      Data2: 1153493753
+      Data3: 947213739
+      Data4: 1828284274
+    Path: event:/SFX/Poster/PosterMatrix
+  sortingLayer: Background
+  OrderInSortingLayer: 0

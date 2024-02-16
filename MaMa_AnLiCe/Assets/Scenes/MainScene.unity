@@ -2779,13 +2779,6 @@ MonoBehaviour:
   - {fileID: 1160531511}
   - {fileID: 1304619376}
   - {fileID: 1770739848}
-  reportSound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
 --- !u!4 &828898168
 Transform:
   m_ObjectHideFlags: 0
@@ -3180,11 +3173,11 @@ MonoBehaviour:
   CamWithNOActivity: {fileID: 21300000, guid: 374717cf7ec39ae488e1f2f583abd150, type: 3}
   nonInteractableSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -802036396
+      Data2: 1238936196
+      Data3: 1384543906
+      Data4: 832345731
+    Path: event:/SFX/Mouse/NonInteractable
 --- !u!114 &916281240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3255,11 +3248,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 778891819
+      Data2: 1325046116
+      Data3: -503433825
+      Data4: 742613018
+    Path: event:/SFX/PC/PCRunning
   Event: 
   PlayEvent: 1
   StopEvent: 2
@@ -3269,8 +3262,8 @@ MonoBehaviour:
   AllowNonRigidbodyDoppler: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &944669793
 Transform:
   m_ObjectHideFlags: 0
@@ -6379,18 +6372,18 @@ MonoBehaviour:
   CamButton: {fileID: 2015385650}
   situationLoadingSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1421788113
+      Data2: 1111681052
+      Data3: -485274180
+      Data4: 1124915558
+    Path: event:/SFX/Camera/CameraSelected
   logbookLoadingSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1626333635
+      Data2: 1158707952
+      Data3: -1676607066
+      Data4: 69049457
+    Path: event:/SFX/Camera/CameraDone
   loadingScreenDuration: 1
 --- !u!1 &1861024152
 GameObject:
@@ -6450,11 +6443,11 @@ MonoBehaviour:
   CamWithNOActivity: {fileID: 21300000, guid: b241810d663466d40a084983a6130deb, type: 3}
   nonInteractableSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -802036396
+      Data2: 1238936196
+      Data3: 1384543906
+      Data4: 832345731
+    Path: event:/SFX/Mouse/NonInteractable
 --- !u!114 &1861024155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6547,11 +6540,11 @@ MonoBehaviour:
   shutdownDuration: 1
   shutdownSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1529743875
+      Data2: 1116170942
+      Data3: -2133382775
+      Data4: 656133315
+    Path: event:/SFX/PC/PCTurnOff
 --- !u!114 &1872562077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6704,11 +6697,11 @@ MonoBehaviour:
   CamWithNOActivity: {fileID: 21300000, guid: bf0a0018c554cd8468dc85355366873d, type: 3}
   nonInteractableSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -802036396
+      Data2: 1238936196
+      Data3: 1384543906
+      Data4: 832345731
+    Path: event:/SFX/Mouse/NonInteractable
 --- !u!114 &1910927601
 MonoBehaviour:
   m_ObjectHideFlags: 0

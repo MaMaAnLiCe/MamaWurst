@@ -728,7 +728,6 @@ GameObject:
   - component: {fileID: 725714328}
   - component: {fileID: 725714327}
   - component: {fileID: 725714331}
-  - component: {fileID: 725714332}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -838,37 +837,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d74b62c9d5fc1554883f8355690e7755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &725714332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725714326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 13668771
-      Data2: 1249691100
-      Data3: 394449293
-      Data4: 489335696
-    Path: event:/Story/Mellie/1
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  AllowNonRigidbodyDoppler: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &1223045488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,11 +1450,18 @@ MonoBehaviour:
   leftClick: {fileID: -1422863094201543540, guid: 32f4b31f800a1e34391f239b08c9a29b, type: 3}
   mouseClick:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -627276008
+      Data2: 1326759059
+      Data3: -1434689608
+      Data4: -1692324801
+    Path: event:/SFX/Mouse/ClickDown
+  mouseClickUp:
+    Guid:
+      Data1: 229702179
+      Data2: 1308964332
+      Data3: -2042713195
+      Data4: -103693850
+    Path: event:/SFX/Mouse/ClickUp
 --- !u!4 &1817116953
 Transform:
   m_ObjectHideFlags: 0

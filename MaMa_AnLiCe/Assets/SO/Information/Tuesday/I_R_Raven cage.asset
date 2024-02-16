@@ -25,10 +25,10 @@ MonoBehaviour:
   shortDescription: A cage filled to the brim with ravens <br><i>Smart little beasts</i>
   MouseClick:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -800774979
+      Data2: 1182324880
+      Data3: -2119323743
+      Data4: -1400483969
+    Path: event:/SFX/Tuesday/RavenInCage
   sortingLayer: Props
   OrderInSortingLayer: 10

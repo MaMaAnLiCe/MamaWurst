@@ -23,3 +23,12 @@ MonoBehaviour:
   folderName: Faked rehearsals
   InformationImage: {fileID: 21300000, guid: d916a9310e3e57c488df11fc16d20b90, type: 3}
   shortDescription: Rehearsals<br> <i>of... a coffee mug?</i>
+  MouseClick:
+    Guid:
+      Data1: -831635123
+      Data2: 1164503177
+      Data3: 493052081
+      Data4: -50605600
+    Path: event:/SFX/Wednesday/Samples
+  sortingLayer: Background
+  OrderInSortingLayer: 0

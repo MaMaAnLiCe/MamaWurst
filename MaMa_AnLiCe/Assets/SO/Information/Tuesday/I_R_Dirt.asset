@@ -25,10 +25,10 @@ MonoBehaviour:
   shortDescription: Dirt from the cage and shoes <br> <i>Nothing more nothing less</i>
   MouseClick:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -900967369
+      Data2: 1328887071
+      Data3: 1060200865
+      Data4: 868397160
+    Path: event:/SFX/Tuesday/Dirt
   sortingLayer: Props
   OrderInSortingLayer: 10

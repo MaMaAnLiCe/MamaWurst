@@ -23,3 +23,12 @@ MonoBehaviour:
   folderName: Hidden cigarettes
   InformationImage: {fileID: 21300000, guid: a3dfb0cb485eefc4180e30767150e6ea, type: 3}
   shortDescription: A bunch of cigarette butts <br> <i>And what a hiding spot</i>
+  MouseClick:
+    Guid:
+      Data1: 1494926719
+      Data2: 1306015088
+      Data3: 1983168147
+      Data4: -1830572055
+    Path: event:/SFX/Wednesday/Cigarettes
+  sortingLayer: Background
+  OrderInSortingLayer: 0
