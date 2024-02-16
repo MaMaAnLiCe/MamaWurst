@@ -234,6 +234,7 @@ MonoBehaviour:
   informationImage: {fileID: 3608812866643378467}
   prop: {fileID: 0}
   information: {fileID: 0}
+  logbookButton: {x: 0, y: 0, z: 0}
   TitleTMP: {fileID: 4784703028361513979}
 --- !u!1 &1967619066171521310
 GameObject:
@@ -566,7 +567,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1787317941637957278}
         m_TargetAssemblyTypeName: InformationSlice, Assembly-CSharp
-        m_MethodName: SaveData
+        m_MethodName: SaveDataLogic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

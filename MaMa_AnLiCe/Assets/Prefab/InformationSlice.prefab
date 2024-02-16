@@ -601,6 +601,7 @@ MonoBehaviour:
   informationImage: {fileID: 5244573056474953357}
   prop: {fileID: 0}
   information: {fileID: 0}
+  logbookButton: {x: -360.1, y: -465.2, z: 0}
 --- !u!1 &3545010017810878630
 GameObject:
   m_ObjectHideFlags: 0

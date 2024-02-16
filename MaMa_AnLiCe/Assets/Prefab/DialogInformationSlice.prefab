@@ -142,6 +142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1323820569358873501}
   - component: {fileID: 7935508148933227040}
+  - component: {fileID: 1513735324983842474}
   m_Layer: 5
   m_Name: DialogInformationSlice
   m_TagString: Untagged
@@ -191,10 +192,43 @@ MonoBehaviour:
   informationImage: {fileID: 5244573056474953357}
   prop: {fileID: 0}
   information: {fileID: 0}
+  logbookButton: {x: 0, y: 0, z: 0}
   dialoginfo: {fileID: 0}
   typeWriterDelay: 0.1
   continueButton: {fileID: 367261800589867640}
   skipButton: {fileID: 1804241126588703852}
+  emitter: {fileID: 1513735324983842474}
+--- !u!114 &1513735324983842474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2922693621541616902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
 --- !u!1 &3545010017810878630
 GameObject:
   m_ObjectHideFlags: 0

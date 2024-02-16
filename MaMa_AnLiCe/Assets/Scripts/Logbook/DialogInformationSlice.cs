@@ -15,6 +15,7 @@ public class DialogInformationSlice : InformationSlice
     float currentTypeWriterDelay;
     [SerializeField] Button continueButton;
     [SerializeField] Button skipButton;
+    public StudioEventEmitter emitter;
 
     public override void InformationSetUp(InformationSO information, Props prop)
     {
@@ -47,7 +48,10 @@ public class DialogInformationSlice : InformationSlice
 
     public IEnumerator TypeWriter()
     {
-        RuntimeManager.PlayOneShot(dialoginfo.dialogLines[lineIndex].person.brabbelSound);
+        emitter.EventReference = dialoginfo.dialogLines[lineIndex].person.brabbelSound;
+        Debug.Log(emitter.EventReference.Path);
+        emitter.Play();
+        //RuntimeManager.PlayOneShot(dialoginfo.dialogLines[lineIndex].person.brabbelSound);
         continueButton.gameObject.SetActive(false);
         skipButton.gameObject.SetActive(true);
         content.text = "";
@@ -60,11 +64,13 @@ public class DialogInformationSlice : InformationSlice
                 yield return new WaitForSeconds(currentTypeWriterDelay);
             }
         }
+        emitter.Stop();
+        
         currentTypeWriterDelay = typeWriterDelay;
         skipButton.gameObject.SetActive(false);
         continueButton.gameObject.SetActive(true);
         lineIndex++;
-
+        yield return null;
     }
 
     public void skipCurrentLine()

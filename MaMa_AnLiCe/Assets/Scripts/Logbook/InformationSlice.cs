@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class InformationSlice : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class InformationSlice : MonoBehaviour
     public Image informationImage;
     public Props prop;
     public InformationSO information;
+    public Vector3 logbookButton;
 
     public virtual void InformationSetUp(InformationSO information, Props prop)
     {
@@ -28,7 +30,7 @@ public class InformationSlice : MonoBehaviour
             {
 
             }
-            
+
             informationImage.sprite = information.InformationImage;
             this.prop = prop;
             prop.isrunning = true;
@@ -51,14 +53,23 @@ public class InformationSlice : MonoBehaviour
 
     public void SaveData()
     {
+        Sequence sequence = DOTween.Sequence();
+
+        sequence.Append(transform.DOLocalMove(logbookButton, 0.2f).SetEase(Ease.Linear));
+        sequence.Insert(0f, GetComponent<RectTransform>().DOScale(0, 0.2f).SetEase(Ease.Linear));
+        sequence.OnComplete(() => SaveDataLogic());
+        sequence.Play();
+        
+    }
+
+    public void SaveDataLogic()
+    {
         if (prop != null)
         {
             prop.isrunning = false;
         }
         information.revealed = true;
         Destroy(gameObject);
-
-
     }
 
     public void DiscardData()
@@ -67,9 +78,9 @@ public class InformationSlice : MonoBehaviour
         {
             prop.isrunning = false;
         }
-        foreach(InformationFolder folder in Logbook.Instance.informationFolders)
+        foreach (InformationFolder folder in Logbook.Instance.informationFolders)
         {
-            if(folder.myInfo == information)
+            if (folder.myInfo == information)
             {
                 Destroy(folder.gameObject);
                 break;
