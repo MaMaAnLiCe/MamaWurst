@@ -13,9 +13,6 @@ public class Props : MonoBehaviour, IPointerClickHandler
     public DialogInformationSlice dialogInformationSlice;
     public bool isrunning;
 
-
-
-
     private void OnMouseDown()
     {
         
@@ -48,6 +45,7 @@ public class Props : MonoBehaviour, IPointerClickHandler
         spriteRenderer.sprite = information.propSprite;
         gameObject.AddComponent<PolygonCollider2D>();
         GetComponent<StudioEventEmitter>().EventReference = information.MouseClick;
+        transform.position = information.targetPosition;
     }
 
     private IEnumerator InformationGathering()

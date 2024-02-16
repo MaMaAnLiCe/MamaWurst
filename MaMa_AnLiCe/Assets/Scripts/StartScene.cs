@@ -6,6 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class StartScene : MonoBehaviour
 {
+    [SerializeField] SettingsSO settingsSO;
+
+    private void Awake()
+    {
+        FMODUnity.RuntimeManager.GetBus("bus:/").setVolume(settingsSO.MasterVolume);
+        FMODUnity.RuntimeManager.GetBus("bus:/SFX").setVolume(settingsSO.SFXVolume);
+        FMODUnity.RuntimeManager.GetBus("bus:/Story").setVolume(settingsSO.StoryVolume);
+    }
 
 
     public void OpenSettings()
@@ -18,6 +26,6 @@ public class StartScene : MonoBehaviour
         SceneManager.LoadScene("MainScene");
     }
 
- 
- 
+
+
 }

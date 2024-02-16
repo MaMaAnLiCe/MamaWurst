@@ -26,4 +26,6 @@ public class InformationSO : ScriptableObject
     [SortingLayer] public string sortingLayer;
     [SerializeField] public int OrderInSortingLayer;
 
+    [SerializeField] public Vector3 targetPosition;
+
 }

@@ -10,7 +10,7 @@ using UnityEngine.Timeline;
 
 public class OptionMenu : MonoBehaviour
 {
-
+    [SerializeField] SettingsSO settingsSO;
     //public GameObject mainMenuCanvas;
     //public Button backButton;
 
@@ -43,23 +43,17 @@ public class OptionMenu : MonoBehaviour
     {
         MasterBus = FMODUnity.RuntimeManager.GetBus("bus:/");
         SFXBus = FMODUnity.RuntimeManager.GetBus("bus:/SFX");
-        MasterBus = FMODUnity.RuntimeManager.GetBus("bus:/Story");
-
-        SetMasterVolume();
-        SetSFXVolume();
-        SetStoryVolume();
+        MasterBus = FMODUnity.RuntimeManager.GetBus("bus:/Story"); 
+        
+        FullScreenToggle.isOn = settingsSO.Fullscreen;
+        MasterSlider.value = settingsSO.MasterVolume;
+        SFXSlider.value = settingsSO.SFXVolume;
+        MusicSlider.value = settingsSO.StoryVolume;
     }
 
     void Start()
     {
-
-
-
-
-
         starting = true;
-        FullScreenToggle.isOn = Screen.fullScreenMode == FullScreenMode.FullScreenWindow;
-        //backButton.onCick.AddListener(BackToMainMenu);
         starting = false;
     }
 
@@ -73,16 +67,19 @@ public class OptionMenu : MonoBehaviour
     public void SetMasterVolume()
     {
         MasterBus.setVolume(MasterSlider.value);
+        settingsSO.MasterVolume = MasterSlider.value;
     }
 
     public void SetSFXVolume()
     {
-        SFXBus.setVolume(SFXSlider.value);
+        SFXBus.setVolume(SFXSlider.value); 
+        settingsSO.SFXVolume = SFXSlider.value;
     }
 
     public void SetStoryVolume()
     {
         StoryBus.setVolume(MusicSlider.value);
+        settingsSO.StoryVolume = MusicSlider.value;
     }
 
     public void SetFullscreen()
