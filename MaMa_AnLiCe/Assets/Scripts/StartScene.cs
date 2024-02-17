@@ -19,14 +19,16 @@ public class StartScene : MonoBehaviour
 
     [SerializeField] GameObject LoginCanvas;
     [SerializeField] TextMeshProUGUI passwordTMP;
+    [SerializeField]  TextMeshProUGUI Welcome;
     [SerializeField] float currentTypeWriterDelay;
     string password;
 
     [SerializeField] GameObject Button; 
     [SerializeField] GameObject Logo; 
     [SerializeField] GameObject LoadingBar; 
-    [SerializeField] GameObject Mask; 
-
+    [SerializeField] GameObject Mask;
+    [SerializeField] GameObject LoadingScreen;
+    [SerializeField] GameObject LoadingBarLogin;
     public EventReference typingSound;
 
     private void Awake()
@@ -77,9 +79,30 @@ public class StartScene : MonoBehaviour
             yield return new WaitForSeconds(Random.Range(0.06f, 0.2f));
             
         }
+        
         yield return new WaitForSeconds(startGameDuration);
-
+        
+        LoadingBarLogin.SetActive(false);
+        Welcome.gameObject.SetActive(true);
+        StartCoroutine(Fade());
+        
+        yield return new WaitForSeconds(3f);
+    
         SceneManager.LoadScene("MainScene");
+    }
+
+    public IEnumerator Fade()
+    {
+        Color color = Welcome.color;
+        while (color.a < 1)
+        {
+            color.a += 0.01f;
+            Welcome.color = color;
+            yield return new WaitForSeconds(0.1f);
+
+        }
+
+        yield return null;
     }
 
 
