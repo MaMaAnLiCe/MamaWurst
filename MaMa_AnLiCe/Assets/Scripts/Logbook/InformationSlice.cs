@@ -57,13 +57,18 @@ public class InformationSlice : MonoBehaviour
 
     public void SaveData()
     {
-        Sequence sequence = DOTween.Sequence();
-
-        sequence.Append(transform.DOLocalMove(logbookButton, 0.2f).SetEase(Ease.Linear));
-        sequence.Insert(0f, GetComponent<RectTransform>().DOScale(0, 0.2f).SetEase(Ease.Linear));
-        sequence.OnComplete(() => SaveDataLogic());
-        sequence.Play();
-        
+        if(this is DetailedInfoSlice)
+        {
+            SaveDataLogic();
+        }
+        else
+        {
+            Sequence sequence = DOTween.Sequence();
+            sequence.Append(transform.DOLocalMove(logbookButton, 0.2f).SetEase(Ease.Linear));
+            sequence.Insert(0f, GetComponent<RectTransform>().DOScale(0, 0.2f).SetEase(Ease.Linear));
+            sequence.OnComplete(() => SaveDataLogic());
+            sequence.Play();
+        }
     }
 
     public void SaveDataLogic()
