@@ -275,10 +275,10 @@ MonoBehaviour:
   continueButton: {fileID: 367261800589867640}
   skipButton: {fileID: 1804241126588703852}
   emitter: {fileID: 3845439953755998633, guid: f4fd6a622601b2247aa19d0789d6fe4f, type: 3}
-  tweenScaleStrength: 0.5
+  tweenScaleStrength: 0.1
   tweenMoveStrength: {x: 0, y: 0, z: 0}
-  Tweenduration: 1
-  tweenScaleEase: 1
+  Tweenduration: 1.4
+  tweenScaleEase: 3
   tweenMoveEase: 1
 --- !u!1 &3545010017810878630
 GameObject:
