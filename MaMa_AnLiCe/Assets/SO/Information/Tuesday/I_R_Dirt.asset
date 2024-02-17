@@ -16,7 +16,7 @@ MonoBehaviour:
   location: 2
   infoType: 0
   person: []
-  revealed: 1
+  revealed: 0
   propSprite: {fileID: 21300000, guid: fe1ab471b5bae1349ab3953db0fc2319, type: 3}
   interactionWeight: 1
   content: Dirt from the cage and shoes <br> <i>Nothing more nothing less</i>
@@ -31,5 +31,5 @@ MonoBehaviour:
       Data4: 868397160
     Path: event:/SFX/Tuesday/Dirt
   sortingLayer: Props
-  OrderInSortingLayer: 0
+  OrderInSortingLayer: -10
   targetPosition: {x: 0, y: 0, z: 0}
