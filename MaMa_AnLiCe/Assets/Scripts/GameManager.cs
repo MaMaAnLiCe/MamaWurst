@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] public List<WeekdayButton> FolderButtons;
     [SerializeField] public List<GridLayoutGroup> Folders;
 
-
+    [SerializeField] public GameEndReport gameEndReportPrefab;
 
 
     private void Awake()
@@ -118,7 +118,9 @@ public class GameManager : MonoBehaviour
 
     public void Report()
     {
-        SceneManager.LoadScene("StartScene");
+        GameEndReport report = Instantiate(gameEndReportPrefab,UIManager.Instance.transform);
+        UIManager.Instance.EndCanvas.SetActive(false);
+        //SceneManager.LoadScene("StartScene");
     }
 
 

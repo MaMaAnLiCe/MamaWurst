@@ -3497,6 +3497,7 @@ MonoBehaviour:
   - {fileID: 1160531511}
   - {fileID: 1304619376}
   - {fileID: 1770739848}
+  gameEndReportPrefab: {fileID: 4389584510060065011, guid: 5d65b0bf60ea6d941b7810b588b16738, type: 3}
 --- !u!4 &828898168
 Transform:
   m_ObjectHideFlags: 0
