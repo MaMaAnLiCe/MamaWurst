@@ -16,7 +16,7 @@ MonoBehaviour:
   location: 0
   infoType: 0
   person: []
-  revealed: 0
+  revealed: 1
   propSprite: {fileID: 21300000, guid: 47116857e31302a458d7a149003a6eae, type: 3}
   interactionWeight: 1
   content: <b>NEW! TASTE THE CITY! NEW YORK FLAVOR!</b><br> <i>Almost feels like
@@ -34,3 +34,4 @@ MonoBehaviour:
     Path: event:/SFX/Poster/PosterMatrix
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}

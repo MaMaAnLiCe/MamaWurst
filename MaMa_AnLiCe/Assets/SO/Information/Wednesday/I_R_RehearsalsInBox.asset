@@ -16,7 +16,7 @@ MonoBehaviour:
   location: 2
   infoType: 0
   person: []
-  revealed: 0
+  revealed: 1
   propSprite: {fileID: 21300000, guid: 3c266d8e8370e5245a84c618c8f3ae6e, type: 3}
   interactionWeight: 1
   content: Rehearsals<br> <i>of... a coffee mug?</i>

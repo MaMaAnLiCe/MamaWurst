@@ -16,7 +16,7 @@ MonoBehaviour:
   location: 2
   infoType: 0
   person: []
-  revealed: 0
+  revealed: 1
   propSprite: {fileID: 0}
   interactionWeight: 1
   content: Ripped paper of faked quota

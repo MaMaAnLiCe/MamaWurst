@@ -16,7 +16,7 @@ MonoBehaviour:
   location: 2
   infoType: 0
   person: []
-  revealed: 0
+  revealed: 1
   propSprite: {fileID: 21300000, guid: a9e0e577cbbd25d479f173ef4e54ed6f, type: 3}
   interactionWeight: 1
   content: A cage filled to the brim with ravens <br><i>Smart little beasts</i>

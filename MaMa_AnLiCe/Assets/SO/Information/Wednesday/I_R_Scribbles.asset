@@ -16,7 +16,7 @@ MonoBehaviour:
   location: 2
   infoType: 0
   person: []
-  revealed: 0
+  revealed: 1
   propSprite: {fileID: 21300000, guid: 4e163791b31bd8944849921e1407134f, type: 3}
   interactionWeight: 1
   content: <b>I LOVE MAMA</b><br><i>I guess thats one way to show your affection</i>
