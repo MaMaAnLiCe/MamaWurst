@@ -186,7 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myInfo: {fileID: 0}
-  DetailedInfoSlice: {fileID: 1787317941637957278, guid: a225e08894b28cf45bee6561ebb0af42, type: 3}
+  DetailedInfoSlice: {fileID: 3220803414518151544, guid: a225e08894b28cf45bee6561ebb0af42, type: 3}
   nonInteractable:
     Guid:
       Data1: -802036396

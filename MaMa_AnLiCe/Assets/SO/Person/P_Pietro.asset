@@ -20,3 +20,5 @@ MonoBehaviour:
       Data3: 1374149529
       Data4: -1943120809
     Path: event:/Story/Pete/PeteVoice
+  portraitSprite: {fileID: 21300000, guid: cb39e586cc1ec8f408111097d896a921, type: 3}
+  targetPosition: {x: 0, y: 0, z: 0}

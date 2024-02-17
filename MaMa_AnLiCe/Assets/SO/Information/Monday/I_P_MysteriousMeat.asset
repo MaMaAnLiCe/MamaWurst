@@ -21,7 +21,7 @@ MonoBehaviour:
   interactionWeight: 1
   content: A cooling box with <i>mysterious meat</i>
   folderName: Mysterious meat
-  InformationImage: {fileID: 21300000, guid: 69459157b66a9b54dae28f258f3fb4be, type: 3}
+  InformationImage: {fileID: 21300000, guid: 95df1be7caeae81498bdd53a60d33243, type: 3}
   shortDescription: A cooling box with <i>mysterious meat</i>
   MouseClick:
     Guid:
@@ -32,3 +32,4 @@ MonoBehaviour:
     Path: event:/SFX/MysteriousMeat/MysteriousMeat
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}

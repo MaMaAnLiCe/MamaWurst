@@ -16,12 +16,12 @@ MonoBehaviour:
   location: 1
   infoType: 0
   person: []
-  revealed: 0
+  revealed: 1
   propSprite: {fileID: 21300000, guid: db218b059d288b642b8aeffaf4460b0f, type: 3}
   interactionWeight: 1
   content: Seems like rat meat has been added to the mysterious meat
   folderName: Rat mysterious meat
-  InformationImage: {fileID: 21300000, guid: 41fed5b9c7cfa464b8f1e185b0cb1787, type: 3}
+  InformationImage: {fileID: 21300000, guid: 6c3efd9fa2910b842944361e32e8100c, type: 3}
   shortDescription: Seems like rat meat has been added to the mysterious meat
   MouseClick:
     Guid:
@@ -32,3 +32,4 @@ MonoBehaviour:
     Path: event:/SFX/MysteriousMeat/MysteriousMeat
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}

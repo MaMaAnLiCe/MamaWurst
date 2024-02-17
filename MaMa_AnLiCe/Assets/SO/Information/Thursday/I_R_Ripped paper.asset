@@ -16,12 +16,12 @@ MonoBehaviour:
   location: 2
   infoType: 0
   person: []
-  revealed: 0
+  revealed: 1
   propSprite: {fileID: 0}
   interactionWeight: 1
   content: Ripped paper of faked quota
   folderName: 'Ripped paper of faked quota '
-  InformationImage: {fileID: 0}
+  InformationImage: {fileID: 21300000, guid: ff027b69db52be94682579c8ee332fee, type: 3}
   shortDescription: Ripped paper of faked quota
   MouseClick:
     Guid:
@@ -32,3 +32,4 @@ MonoBehaviour:
     Path: event:/SFX/Thursday/RippedPaper
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}

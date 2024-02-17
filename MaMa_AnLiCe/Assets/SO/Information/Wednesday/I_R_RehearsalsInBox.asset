@@ -16,12 +16,12 @@ MonoBehaviour:
   location: 2
   infoType: 0
   person: []
-  revealed: 0
+  revealed: 1
   propSprite: {fileID: 21300000, guid: 3c266d8e8370e5245a84c618c8f3ae6e, type: 3}
   interactionWeight: 1
   content: Rehearsals<br> <i>of... a coffee mug?</i>
   folderName: Faked rehearsals
-  InformationImage: {fileID: 21300000, guid: d916a9310e3e57c488df11fc16d20b90, type: 3}
+  InformationImage: {fileID: 21300000, guid: 27ce5b0fffb30df499f72cbd3d7c8c1b, type: 3}
   shortDescription: Rehearsals<br> <i>of... a coffee mug?</i>
   MouseClick:
     Guid:
@@ -32,3 +32,4 @@ MonoBehaviour:
     Path: event:/SFX/Wednesday/Samples
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}
