@@ -20,7 +20,7 @@ public class GameEndReport : MonoBehaviour
         gameObject.transform.DOScale(1, tweenduration);
         Sequence sequence = DOTween.Sequence();
         sequence.Append(gameObject.transform.DOLocalRotate(Vector3.back * 360*SpinAmount, tweenduration,RotateMode.FastBeyond360));
-        sequence.SetLoops(SpinAmount);
+       
         sequence.OnComplete(()=> EndButton.gameObject.SetActive(true));
         sequence.Play();
         
