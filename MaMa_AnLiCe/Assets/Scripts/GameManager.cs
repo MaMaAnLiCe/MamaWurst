@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if(Instance == null)
+        if (Instance == null)
         {
             Instance = this;
         }
@@ -45,13 +45,14 @@ public class GameManager : MonoBehaviour
 
     public void LoadSituation(Location location)
     {
-        foreach(SituationsSO situation in situations)
+        foreach (SituationsSO situation in situations)
         {
-            if(location == situation.location && currentTime == situation.time)
+            if (location == situation.location && currentTime == situation.time)
             {
                 SituationHandler situationPrefab = Instantiate(SituationPrefab);
                 situationPrefab.SetUp(situation);
                 situation.UpdateInformation();
+                FolderButtons[currentTime].Unlock();
             }
 
         }
@@ -61,9 +62,9 @@ public class GameManager : MonoBehaviour
 
     public bool hasSituation(Location location)
     {
-        foreach(SituationsSO situation in situations)
+        foreach (SituationsSO situation in situations)
         {
-            if(location == situation.location && currentTime == situation.time)
+            if (location == situation.location && currentTime == situation.time)
             {
                 return true;
             }
@@ -75,18 +76,16 @@ public class GameManager : MonoBehaviour
     {
         currentTime++;
 
-        FolderButtons[currentTime-1].Unlock();
-
-        if(currentTime >= dayCount)
+        if (currentTime >= dayCount)
         {
-            
-            UIManager.Instance.SwitchState((int) GameState.EndOfWeekState);
+
+            UIManager.Instance.SwitchState((int)GameState.EndOfWeekState);
         }
         else
         {
-            
-            UIManager.Instance.SwitchState((int) GameState.LogbookState);
-            DaySelected(currentTime-1);
+
+            UIManager.Instance.SwitchState((int)GameState.LogbookState);
+            DaySelected(currentTime - 1);
         }
         try
         {
@@ -96,14 +95,14 @@ public class GameManager : MonoBehaviour
         {
             date.text = daysOfTheWeek[0];
         }
-       
+
     }
 
     public void ResetAllInformations()
     {
         foreach (SituationsSO situation in situations)
         {
-           foreach(InformationSO info in situation.Informations)
+            foreach (InformationSO info in situation.Informations)
             {
                 info.revealed = false;
             }
@@ -126,10 +125,10 @@ public class GameManager : MonoBehaviour
     public void DaySelected(int Listindex)
     {
         FolderButtons[Listindex].GetComponent<Button>().Select();
-        foreach(GridLayoutGroup folder in Folders)
+        foreach (GridLayoutGroup folder in Folders)
         {
             folder.gameObject.SetActive(Folders.IndexOf(folder) == Listindex);
-               
+
         }
     }
 }
