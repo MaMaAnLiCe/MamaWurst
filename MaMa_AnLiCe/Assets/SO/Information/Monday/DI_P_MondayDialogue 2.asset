@@ -17,7 +17,7 @@ MonoBehaviour:
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: 6c4e55b5cc316c84aae644db6f564d97, type: 3}
+  propSprite: {fileID: 21300000, guid: fa0d33377cce4774ab13eb71f6fdd1e7, type: 3}
   interactionWeight: 1
   content: '<b>Robert:</b><br>Mellie, this should be easy  work for you right? I
     mean you are obviously our best employee.<br><b>Mellie:</b><br>Here we go again,
@@ -35,7 +35,7 @@ MonoBehaviour:
     Path: 
   sortingLayer: Props
   OrderInSortingLayer: 0
-  targetPosition: {x: 0, y: 0, z: 0}
+  targetPosition: {x: -2.3, y: 2.3, z: 0}
   dialogLines:
   - line: <b>Robert:</b><br>Mellie, this should be easy  work for you right? I mean
       you are obviously our best employee.

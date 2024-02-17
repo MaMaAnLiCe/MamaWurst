@@ -6,4 +6,5 @@ using UnityEngine;
 public class DialogInormationSO : InformationSO
 {
     [SerializeField] public List<DialogLine> dialogLines;
+
 }

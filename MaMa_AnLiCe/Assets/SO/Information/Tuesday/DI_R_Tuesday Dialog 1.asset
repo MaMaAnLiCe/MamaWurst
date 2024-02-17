@@ -17,7 +17,7 @@ MonoBehaviour:
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: 6c4e55b5cc316c84aae644db6f564d97, type: 3}
+  propSprite: {fileID: 21300000, guid: 6b00ad350979c3a4da37ece272c10fe7, type: 3}
   interactionWeight: 2
   content: "<b>Robert:</b><br>I\xB4ve actually made it, I created the first cockroach
     that can grow to the size of a dog. I'll work on some ravens now.<br><b>Robert:</b><br>But
@@ -38,7 +38,7 @@ MonoBehaviour:
     Path: 
   sortingLayer: Props
   OrderInSortingLayer: 0
-  targetPosition: {x: 0, y: 0, z: 0}
+  targetPosition: {x: 1, y: 1.7, z: 0}
   dialogLines:
   - line: "<b>Robert:</b><br>I\xB4ve actually made it, I created the first cockroach
       that can grow to the size of a dog. I'll work on some ravens now."

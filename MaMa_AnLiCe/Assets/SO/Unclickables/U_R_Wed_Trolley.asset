@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prop: {fileID: 21300000, guid: 0be24660e2174fb46989cb7a3789958f, type: 3}
   SortingLayer: Props
-  OrderInSortingLayer: 0
+  OrderInSortingLayer: -10
   targetPosition: {x: 0, y: 0, z: 0}

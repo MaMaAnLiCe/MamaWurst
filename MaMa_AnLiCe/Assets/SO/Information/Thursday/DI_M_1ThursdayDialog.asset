@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1c94d0af3c36384fbad7a5699ae1e95, type: 3}
   m_Name: DI_M_1ThursdayDialog
   m_EditorClassIdentifier: 
-  time: 0
+  time: 3
   location: 0
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: 6c4e55b5cc316c84aae644db6f564d97, type: 3}
+  propSprite: {fileID: 21300000, guid: 6b00ad350979c3a4da37ece272c10fe7, type: 3}
   interactionWeight: 1
   content: '<b>Mellie:</b><br>It''s not my fault! I''m just doing what I''ve been
     ordered to. It''s not lying if I just tell the good parts.. RIGHT?<br><b>Mellie:</b><br>How
@@ -35,7 +35,7 @@ MonoBehaviour:
     Path: 
   sortingLayer: Props
   OrderInSortingLayer: 0
-  targetPosition: {x: 0, y: 0, z: 0}
+  targetPosition: {x: 1.7, y: 2, z: 0}
   dialogLines:
   - line: <b>Mellie:</b><br>It's not my fault! I'm just doing what I've been ordered
       to. It's not lying if I just tell the good parts.. RIGHT?

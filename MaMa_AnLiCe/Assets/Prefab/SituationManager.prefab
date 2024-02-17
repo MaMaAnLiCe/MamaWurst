@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 1700955737
   m_SortingLayer: -1
   m_SortingOrder: 100
-  m_Sprite: {fileID: 21300000, guid: e1e065db68eba5a4fb969ae420c38373, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 611301187b67f8e43922231fdacd23b2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -141,10 +141,10 @@ MonoBehaviour:
   LocationBSprite: {fileID: 21300000, guid: e1e065db68eba5a4fb969ae420c38373, type: 3}
   LocationCSprite: {fileID: 21300000, guid: e1e065db68eba5a4fb969ae420c38373, type: 3}
   interactionSprite:
-  - {fileID: 21300000, guid: 8512fc4013b020848911753d69f30c47, type: 3}
-  - {fileID: 21300000, guid: 4801f5dfa30304c46b423ab645e145aa, type: 3}
-  - {fileID: 21300000, guid: 31cdef603abc38e4c89f99aecda8125c, type: 3}
-  - {fileID: 21300000, guid: c4f90e8d96f984643bc3a2cd3cc21120, type: 3}
+  - {fileID: 21300000, guid: 04e453b643681ab45860c00962838f84, type: 3}
+  - {fileID: 21300000, guid: dc609b2423aa5e748b4424f159217d9d, type: 3}
+  - {fileID: 21300000, guid: d0c4822670f3f6242a73e9335bb9f5f4, type: 3}
+  - {fileID: 21300000, guid: ac9529f6e0742f04c9bfda22323c6707, type: 3}
   interactionCount: {fileID: 8783813814877913497}
   punchScale: 0.003
 --- !u!114 &7324602187400276063
@@ -204,7 +204,7 @@ Transform:
   m_GameObject: {fileID: 8204707281807605095}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.03, y: 1.95, z: 0}
+  m_LocalPosition: {x: 0.03, y: 4.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -251,14 +251,14 @@ SpriteRenderer:
   m_SortingLayerID: 1700955737
   m_SortingLayer: -1
   m_SortingOrder: 200
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 04e453b643681ab45860c00962838f84, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.76, y: 3.88}
+  m_Size: {x: 9.17, y: 4.06}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0

@@ -17,7 +17,7 @@ MonoBehaviour:
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
+  propSprite: {fileID: 21300000, guid: 6b00ad350979c3a4da37ece272c10fe7, type: 3}
   interactionWeight: 2
   content: <b>Mellie:</b><br>This could save us a lot of money.<br><b>Mellie:</b><br>We
     should get rid of the bodies, my boss said we should throw them into the mix
@@ -36,7 +36,7 @@ MonoBehaviour:
     Path: 
   sortingLayer: Props
   OrderInSortingLayer: 0
-  targetPosition: {x: 0, y: 0, z: 0}
+  targetPosition: {x: 2.1, y: 1.7, z: 0}
   dialogLines:
   - line: <b>Mellie:</b><br>This could save us a lot of money.
     person: {fileID: 11400000, guid: 817a80f90b82d684197711a53fffaf5f, type: 2}

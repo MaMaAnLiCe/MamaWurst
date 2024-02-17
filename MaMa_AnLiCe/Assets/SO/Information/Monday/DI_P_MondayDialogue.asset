@@ -17,7 +17,7 @@ MonoBehaviour:
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
+  propSprite: {fileID: 21300000, guid: fa0d33377cce4774ab13eb71f6fdd1e7, type: 3}
   interactionWeight: 1
   content: "<b>Pete:</b><br>\u201CMysterious meat\u201D, HA, what a joke. What's
     mysterious about 4 dead rats interfering with the sausage production.<br><b>Robert:</b><br>That's
@@ -36,7 +36,7 @@ MonoBehaviour:
     Path: 
   sortingLayer: Props
   OrderInSortingLayer: 0
-  targetPosition: {x: 0, y: 0, z: 0}
+  targetPosition: {x: 1.8, y: 2.25, z: 0}
   dialogLines:
   - line: "<b>Pete:</b><br>\u201CMysterious meat\u201D, HA, what a joke. What's mysterious
       about 4 dead rats interfering with the sausage production."

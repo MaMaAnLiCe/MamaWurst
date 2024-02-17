@@ -17,8 +17,8 @@ MonoBehaviour:
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: e1145523c47aa1c4e9051c5ff6f01e4e, type: 3}
-  interactionWeight: 0
+  propSprite: {fileID: 21300000, guid: 6b00ad350979c3a4da37ece272c10fe7, type: 3}
+  interactionWeight: 1
   content: '<b>Robert:</b><br>What do you mean you will take one of us with you?
     Well you have nothing against me in your hands, so it''s up to Mellie and Pete.
     I don''t care about them.  '
@@ -36,6 +36,7 @@ MonoBehaviour:
     Path: 
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 2.4, y: 1, z: 0}
   dialogLines:
   - line: '<b>Robert:</b><br>What do you mean you will take one of us with you? Well
       you have nothing against me in your hands, so it''s up to Mellie and Pete.

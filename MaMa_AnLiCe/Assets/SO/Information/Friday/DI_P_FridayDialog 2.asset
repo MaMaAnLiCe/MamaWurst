@@ -17,7 +17,7 @@ MonoBehaviour:
   infoType: 0
   person: []
   revealed: 0
-  propSprite: {fileID: 21300000, guid: 6c4e55b5cc316c84aae644db6f564d97, type: 3}
+  propSprite: {fileID: 21300000, guid: 6b00ad350979c3a4da37ece272c10fe7, type: 3}
   interactionWeight: 1
   content: '<b>Pete:</b><br>Why do these two even stress so much? This is Mamas Wurst.
     Our customers don''t expect good food. Who cares about health regulations and
@@ -36,6 +36,7 @@ MonoBehaviour:
     Path: 
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 1.7, y: 2, z: 0}
   dialogLines:
   - line: '<b>Pete:</b><br>Why do these two even stress so much? This is Mamas Wurst.
       Our customers don''t expect good food. Who cares about health regulations and
