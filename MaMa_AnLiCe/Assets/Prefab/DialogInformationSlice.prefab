@@ -271,7 +271,7 @@ MonoBehaviour:
   FolderNameText: {fileID: 0}
   dialoginfo: {fileID: 0}
   DialogSoundEmitterPrefab: {fileID: 6142623790849757173, guid: f4fd6a622601b2247aa19d0789d6fe4f, type: 3}
-  typeWriterDelay: 0.0600001
+  typeWriterDelay: 0.03
   continueButton: {fileID: 367261800589867640}
   skipButton: {fileID: 1804241126588703852}
   emitter: {fileID: 3845439953755998633, guid: f4fd6a622601b2247aa19d0789d6fe4f, type: 3}
