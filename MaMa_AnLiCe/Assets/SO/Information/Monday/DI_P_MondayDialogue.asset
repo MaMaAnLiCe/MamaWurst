@@ -36,13 +36,14 @@ MonoBehaviour:
     Path: 
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}
   dialogLines:
   - line: "<b>Pete:</b><br>\u201CMysterious meat\u201D, HA, what a joke. What's mysterious
       about 4 dead rats interfering with the sausage production."
-    person: {fileID: 11400000, guid: eea1b13ba0d13624e902ebb4b656dd1a, type: 2}
+    person: {fileID: 11400000, guid: b32a66c0103c85f40972b5adedc7390c, type: 2}
   - line: <b>Robert:</b><br>That's my chance to introduce my newest research about
       meat alternatives. I've been trying some things with some gene manipulations.
-    person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
+    person: {fileID: 11400000, guid: f124d392c20c0bf4fb34f10adecfdf8b, type: 2}
   - line: "<b>Pete:</b><br>What will the new marketing headline call it? <i>\u201CTASTE
       THE CITY, NEW YORK'S FLAVOR!\u201C</i>?"
-    person: {fileID: 11400000, guid: eea1b13ba0d13624e902ebb4b656dd1a, type: 2}
+    person: {fileID: 11400000, guid: b32a66c0103c85f40972b5adedc7390c, type: 2}

@@ -17,7 +17,7 @@ MonoBehaviour:
   infoType: 0
   person: []
   revealed: 1
-  propSprite: {fileID: 21300000, guid: db218b059d288b642b8aeffaf4460b0f, type: 3}
+  propSprite: {fileID: 21300000, guid: 18934174375703d468fa2173ea3df27c, type: 3}
   interactionWeight: 1
   content: A Ripped hair net<br><i>And why does it smell so weird?</i>
   folderName: Hairnet
@@ -30,6 +30,6 @@ MonoBehaviour:
       Data3: 1691446939
       Data4: 457893976
     Path: event:/SFX/Monday/RippedHairNet
-  sortingLayer: Props
-  OrderInSortingLayer: 0
+  sortingLayer: People
+  OrderInSortingLayer: 10
   targetPosition: {x: 0, y: 0, z: 0}

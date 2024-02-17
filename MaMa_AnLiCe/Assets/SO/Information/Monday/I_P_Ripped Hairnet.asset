@@ -17,7 +17,7 @@ MonoBehaviour:
   infoType: 0
   person: []
   revealed: 1
-  propSprite: {fileID: 21300000, guid: db218b059d288b642b8aeffaf4460b0f, type: 3}
+  propSprite: {fileID: 21300000, guid: aa3d85f1924b5ff458a4c3174970f9d6, type: 3}
   interactionWeight: 1
   content: A Ripped hairnet, seems like it also has some shed hair in it
   folderName: Ripped hairnet

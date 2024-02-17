@@ -38,12 +38,13 @@ MonoBehaviour:
     Path: 
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}
   dialogLines:
   - line: "<b>Robert:</b><br>I\xB4ve actually made it, I created the first cockroach
       that can grow to the size of a dog. I'll work on some ravens now."
-    person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
+    person: {fileID: 11400000, guid: 8a6137b9012959f429b1a659c103cd45, type: 2}
   - line: <b>Robert:</b><br>But we have a lot that didn't survive the tests.
-    person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
+    person: {fileID: 11400000, guid: 8a6137b9012959f429b1a659c103cd45, type: 2}
   - line: <b>Robert:</b><br>You're so <i>smart</i>. As always. Tell Pete to clean
       up that mess.
-    person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
+    person: {fileID: 11400000, guid: 8a6137b9012959f429b1a659c103cd45, type: 2}

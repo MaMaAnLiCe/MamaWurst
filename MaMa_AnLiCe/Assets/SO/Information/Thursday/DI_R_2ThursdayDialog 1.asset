@@ -38,11 +38,12 @@ MonoBehaviour:
     Path: 
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}
   dialogLines:
   - line: <b>Pete:</b><br>Did you just rip away a part of the document?
-    person: {fileID: 11400000, guid: eea1b13ba0d13624e902ebb4b656dd1a, type: 2}
+    person: {fileID: 11400000, guid: 6ad82d099cf8ec841b8d1f0cd2a5ceb8, type: 2}
   - line: <b>Robert:</b><br>If the paper doesn't say that our health and safety standards
       are poor then they must be good. And I can keep my position.
-    person: {fileID: 11400000, guid: be6f0528f7481094691216dd42a7f242, type: 2}
+    person: {fileID: 11400000, guid: 9e472acdce259174b8320169e2fecc6f, type: 2}
   - line: '<b>Pete:</b><br>If the smart guy says so.. '
-    person: {fileID: 11400000, guid: eea1b13ba0d13624e902ebb4b656dd1a, type: 2}
+    person: {fileID: 11400000, guid: 6ad82d099cf8ec841b8d1f0cd2a5ceb8, type: 2}

@@ -16,8 +16,8 @@ MonoBehaviour:
   location: 2
   infoType: 0
   person: []
-  revealed: 1
-  propSprite: {fileID: 21300000, guid: a9e0e577cbbd25d479f173ef4e54ed6f, type: 3}
+  revealed: 0
+  propSprite: {fileID: 21300000, guid: 60ff882b948ca0c4cb0661be2bd5fcf3, type: 3}
   interactionWeight: 1
   content: A cage filled to the brim with ravens <br><i>Smart little beasts</i>
   folderName: Raven cage

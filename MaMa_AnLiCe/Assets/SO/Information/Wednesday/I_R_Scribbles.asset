@@ -16,8 +16,8 @@ MonoBehaviour:
   location: 2
   infoType: 0
   person: []
-  revealed: 1
-  propSprite: {fileID: 21300000, guid: 4e163791b31bd8944849921e1407134f, type: 3}
+  revealed: 0
+  propSprite: {fileID: 21300000, guid: a1b7f7bc8f10bb94f882098c3610ede8, type: 3}
   interactionWeight: 1
   content: <b>I LOVE MAMA</b><br><i>I guess thats one way to show your affection</i>
   folderName: Scribbled message<br><i>"I love mama"</i>

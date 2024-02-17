@@ -16,8 +16,8 @@ MonoBehaviour:
   location: 1
   infoType: 0
   person: []
-  revealed: 1
-  propSprite: {fileID: 21300000, guid: 4e163791b31bd8944849921e1407134f, type: 3}
+  revealed: 0
+  propSprite: {fileID: 21300000, guid: 04f48a61831fada439fdd089b66ff4d7, type: 3}
   interactionWeight: 1
   content: Burned safety clothings<br><i>Kinda smells like the mysterious meat</i>
   folderName: Melted clothing

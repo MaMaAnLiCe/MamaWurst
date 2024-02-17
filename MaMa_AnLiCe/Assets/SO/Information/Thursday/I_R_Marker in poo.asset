@@ -16,8 +16,8 @@ MonoBehaviour:
   location: 2
   infoType: 0
   person: []
-  revealed: 1
-  propSprite: {fileID: 21300000, guid: db218b059d288b642b8aeffaf4460b0f, type: 3}
+  revealed: 0
+  propSprite: {fileID: 21300000, guid: bd8318fa795037f4a82475bb2576ad5c, type: 3}
   interactionWeight: 1
   content: <i>What a unique color for a marker. What a shame to make it go to waste
     like that<i>

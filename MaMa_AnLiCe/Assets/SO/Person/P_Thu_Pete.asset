@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a95991ab148d7504db0beed301e29848, type: 3}
+  m_Name: P_Thu_Pete
+  m_EditorClassIdentifier: 
+  PersonSprite: {fileID: 21300000, guid: 4d38cb0c753424e41b9004579c16180d, type: 3}
+  brabbelSound:
+    Guid:
+      Data1: -150310760
+      Data2: 1091599648
+      Data3: 1374149529
+      Data4: -1943120809
+    Path: event:/Story/Pete/PeteVoice
+  portraitSprite: {fileID: 21300000, guid: cb39e586cc1ec8f408111097d896a921, type: 3}
+  targetPosition: {x: 0, y: 0, z: 0}

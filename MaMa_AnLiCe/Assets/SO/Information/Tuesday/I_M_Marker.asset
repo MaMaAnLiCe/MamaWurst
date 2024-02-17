@@ -16,8 +16,8 @@ MonoBehaviour:
   location: 0
   infoType: 0
   person: []
-  revealed: 1
-  propSprite: {fileID: 21300000, guid: 8d1569bc52d97be409dff96b569a97b8, type: 3}
+  revealed: 0
+  propSprite: {fileID: 21300000, guid: 3fb31134544ec7c48a558b27777822c0, type: 3}
   interactionWeight: 1
   content: A marker <br> <i>And what a bold color</i>
   folderName: Marker
@@ -30,6 +30,6 @@ MonoBehaviour:
       Data3: 1227577014
       Data4: -273479993
     Path: event:/SFX/Tuesday/Marker
-  sortingLayer: Props
-  OrderInSortingLayer: 0
+  sortingLayer: People
+  OrderInSortingLayer: 10
   targetPosition: {x: 0, y: 0, z: 0}

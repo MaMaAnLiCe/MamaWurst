@@ -38,13 +38,14 @@ MonoBehaviour:
     Path: 
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}
   dialogLines:
   - line: <b>Mellie:</b><br>Where did you even find one? These meat grinders have
       more rust than clean spots.
-    person: {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}
+    person: {fileID: 11400000, guid: e982825133b63e0429ab2b37318eaa91, type: 2}
   - line: <b>Pete:</b><br>I thought that it was a design choice. Didn't want to ruin
       the art by cleaning it.
-    person: {fileID: 11400000, guid: eea1b13ba0d13624e902ebb4b656dd1a, type: 2}
+    person: {fileID: 11400000, guid: 30fd85d8d8efd6744afe8c3bd14ba571, type: 2}
   - line: '<b>Mellie:</b><br>Everything in our company is <i>all natural</i>, that''s
       what we stand for. '
-    person: {fileID: 11400000, guid: b2c8cf2dbcf3fd34f97680fe3bd5c362, type: 2}
+    person: {fileID: 11400000, guid: e982825133b63e0429ab2b37318eaa91, type: 2}

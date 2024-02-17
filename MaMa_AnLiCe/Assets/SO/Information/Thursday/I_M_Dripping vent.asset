@@ -16,8 +16,8 @@ MonoBehaviour:
   location: 0
   infoType: 0
   person: []
-  revealed: 1
-  propSprite: {fileID: 21300000, guid: 4e163791b31bd8944849921e1407134f, type: 3}
+  revealed: 0
+  propSprite: {fileID: 21300000, guid: b83fde0ad957dcb429e3b48281318922, type: 3}
   interactionWeight: 1
   content: A fluid dripping down the vent<br><i>But why is it so smelly?</i>
   folderName: Dripping vent
