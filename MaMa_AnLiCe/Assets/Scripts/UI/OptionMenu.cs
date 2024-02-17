@@ -53,7 +53,11 @@ public class OptionMenu : MonoBehaviour
 
     void Start()
     {
-        starting = true;
+        starting = true; 
+        FullScreenToggle.isOn = settingsSO.Fullscreen;
+        MasterSlider.value = settingsSO.MasterVolume;
+        SFXSlider.value = settingsSO.SFXVolume;
+        MusicSlider.value = settingsSO.StoryVolume;
         starting = false;
     }
 
@@ -100,6 +104,7 @@ public class OptionMenu : MonoBehaviour
         {
             Screen.fullScreenMode = FullScreenMode.Windowed;
         }
+        settingsSO.Fullscreen = FullScreenToggle.isOn;
     }
 
     public void AdjustGamma()
