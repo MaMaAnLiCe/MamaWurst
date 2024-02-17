@@ -331,7 +331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EndButton: {fileID: 935520027717537760}
   easingFunction: 1
-  tweenduration: 10
+  tweenduration: 1
   SpinAmount: 7
 --- !u!1 &8837326806455407666
 GameObject:
