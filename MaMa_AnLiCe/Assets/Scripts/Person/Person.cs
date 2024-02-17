@@ -9,5 +9,6 @@ public class Person : MonoBehaviour
     public void SetUp(PersonSO person)
     {
         PersonSpriteRenderer.sprite = person.PersonSprite;
+        transform.position = person.targetPosition;
     }
 }

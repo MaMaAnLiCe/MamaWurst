@@ -82,7 +82,7 @@ public class UIManager : MonoBehaviour
                 break;
 
             case GameState.LogbookSituationState:
-
+                GameManager.Instance.DaySelected(GameManager.Instance.currentTime);
                 CamButtonCanvas.SetActive(false);
                 SituationCanvas.SetActive(false);
                 LogbookCanvas.SetActive(true);
