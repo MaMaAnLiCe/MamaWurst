@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using FMODUnity; 
+using FMODUnity;
+using UnityEngine.SceneManagement;
 
 public class Shutdown : MonoBehaviour
 {
@@ -19,6 +20,11 @@ public class Shutdown : MonoBehaviour
     public void QuitGame()
     {
         StartCoroutine(ShutdownCoroutine());
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene("StartScene");
     }
 
     public IEnumerator ShutdownCoroutine()
