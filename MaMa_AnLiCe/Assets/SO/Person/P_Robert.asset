@@ -20,3 +20,5 @@ MonoBehaviour:
       Data3: -755468110
       Data4: -1880995498
     Path: event:/Story/Robert/RobertVoice
+  portraitSprite: {fileID: 21300000, guid: 061c890972cd9b94ea1b24c2fec674a0, type: 3}
+  targetPosition: {x: 0, y: 0, z: 0}
