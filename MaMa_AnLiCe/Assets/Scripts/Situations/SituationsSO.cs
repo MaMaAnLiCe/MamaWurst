@@ -12,6 +12,8 @@ public class SituationsSO : ScriptableObject
     [SerializeField] public List<PersonSO> persons;
     [SerializeField] public List<InformationSO> Informations;
     [SerializeField] public int interactionCounter;
+    [SerializeField] public List<UnClickables> unclickables;
+
 
     public void UpdateInformation()
     {

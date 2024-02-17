@@ -21,3 +21,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 77cb67573e480354f9045b993018a471, type: 2}
   - {fileID: 11400000, guid: 447541e820abdfc41b7d344906397f51, type: 2}
   interactionCounter: 3
+  unclickables:
+  - {fileID: 11400000, guid: c5d39be66fc09c64fbaf54fbbf63d639, type: 2}

@@ -133,6 +133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   propPrefab: {fileID: 2122941972960301334, guid: 68d39c39a01805841830b45da4727933, type: 3}
   personPrefab: {fileID: 4681488665420753379, guid: cf191eab8d2b2a0458cd5435ac473e45, type: 3}
+  unclickablePrefab: {fileID: 402245335406647712, guid: 2323cad6fe51d2f4fa4ef610dce0a18a, type: 3}
   maxInteractionCounter: 0
   currentInteractionCount: 0
   LocationSpriteRenderer: {fileID: 284573533340420244}

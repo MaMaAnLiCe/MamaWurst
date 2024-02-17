@@ -30,6 +30,6 @@ MonoBehaviour:
       Data3: 1691446939
       Data4: 457893976
     Path: event:/SFX/Monday/RippedHairNet
-  sortingLayer: Props
-  OrderInSortingLayer: 0
+  sortingLayer: People
+  OrderInSortingLayer: 10
   targetPosition: {x: 0, y: 0, z: 0}
