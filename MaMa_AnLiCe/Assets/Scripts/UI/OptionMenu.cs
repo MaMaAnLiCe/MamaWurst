@@ -104,6 +104,7 @@ public class OptionMenu : MonoBehaviour
         {
             Screen.fullScreenMode = FullScreenMode.Windowed;
         }
+        settingsSO.Fullscreen = FullScreenToggle.isOn;
     }
 
     public void AdjustGamma()

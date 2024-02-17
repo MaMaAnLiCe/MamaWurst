@@ -21,7 +21,7 @@ MonoBehaviour:
   interactionWeight: 1
   content: <i>What a unique color for a marker. What a shame to make it go to waste
     like that<i>
-  folderName: Marker in animal excrements
+  folderName: Marker in excrements
   InformationImage: {fileID: 21300000, guid: 4731d0c882c61c64c98c1e6124575d32, type: 3}
   shortDescription: <i>What a unique color for a marker. What a shame to make it
     go to waste like that<i>

@@ -16,13 +16,13 @@ MonoBehaviour:
   location: 1
   infoType: 0
   person: []
-  revealed: 1
+  revealed: 0
   propSprite: {fileID: 21300000, guid: 428e991c63ad5dd4086cc842b3f82796, type: 3}
   interactionWeight: 1
-  content: A bunch of cigarette butts <br> <i>And what a hiding spot</i>
-  folderName: Hidden cigarettes
+  content: A bunch of cigarette buds<br> <i>And what a hiding spot</i>
+  folderName: Hidden cigarette buds
   InformationImage: {fileID: 21300000, guid: 2c16217b97592e74ebe0f9722004735f, type: 3}
-  shortDescription: A bunch of cigarette butts <br> <i>And what a hiding spot</i>
+  shortDescription: A bunch of cigarette buds<br> <i>And what a hiding spot</i>
   MouseClick:
     Guid:
       Data1: 1494926719

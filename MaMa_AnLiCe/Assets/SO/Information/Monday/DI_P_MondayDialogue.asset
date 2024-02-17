@@ -26,7 +26,7 @@ MonoBehaviour:
     the new marketing headline call it? <i>\u201CTASTE THE CITY, NEW YORK'S FLAVOR!\u201C</i>?"
   folderName: Robert and Pete talking
   InformationImage: {fileID: 21300000, guid: b553947ff6d716c48a8b04468285bae9, type: 3}
-  shortDescription: lol hehe xd
+  shortDescription: Robert and Pete talking
   MouseClick:
     Guid:
       Data1: 0

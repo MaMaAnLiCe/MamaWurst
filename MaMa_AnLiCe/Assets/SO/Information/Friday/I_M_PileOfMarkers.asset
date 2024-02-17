@@ -20,7 +20,7 @@ MonoBehaviour:
   propSprite: {fileID: 21300000, guid: 0edcc0d8ca67aa14aba869a4e7f7869e, type: 3}
   interactionWeight: 1
   content: A pile of markers, used to write notes on the walls
-  folderName: A pile of markers, used to write notes on the walls
+  folderName: Pile of markers
   InformationImage: {fileID: 21300000, guid: 282d564c54f36e445b0211b70c0246b5, type: 3}
   shortDescription: Those are a lot of markes<br><i>Someone was feeling creative
     today</i>

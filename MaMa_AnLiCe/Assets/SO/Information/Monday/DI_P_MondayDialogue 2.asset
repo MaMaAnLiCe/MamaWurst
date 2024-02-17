@@ -23,9 +23,9 @@ MonoBehaviour:
     mean you are obviously our best employee.<br><b>Mellie:</b><br>Here we go again,
     the marketing boss probably won''t let me leave until it''s done..<br>Just like
     the last 3 weeks. '
-  folderName: Robert and Meli talking
+  folderName: Robert and Mellie talking
   InformationImage: {fileID: 21300000, guid: b553947ff6d716c48a8b04468285bae9, type: 3}
-  shortDescription: 
+  shortDescription: Robert and Mellie talking
   MouseClick:
     Guid:
       Data1: 0
