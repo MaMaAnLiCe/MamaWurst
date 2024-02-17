@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10735b57fdacc454c946c831f3f2378f, type: 3}
-  m_Name: U_M_Fri_Trolley
+  m_Name: U_M_Fri_Scribbles
   m_EditorClassIdentifier: 
-  prop: {fileID: 21300000, guid: f380d33e96c0dfb41865a0bba1870e5f, type: 3}
+  prop: {fileID: 21300000, guid: 8f52825d22fe4784a923d54802804ec7, type: 3}
   SortingLayer: Props
   OrderInSortingLayer: -10
   targetPosition: {x: 0, y: 0, z: 0}

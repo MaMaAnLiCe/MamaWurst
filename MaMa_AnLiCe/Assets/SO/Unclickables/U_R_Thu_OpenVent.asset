@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: U_R_Thu_OpenVent
   m_EditorClassIdentifier: 
   prop: {fileID: 21300000, guid: cda764cb80fb3c54fa49cf52ab951d68, type: 3}
-  SortingLayer: Background
-  OrderInSortingLayer: 0
+  SortingLayer: Props
+  OrderInSortingLayer: -10
   targetPosition: {x: 0, y: 0, z: 0}
