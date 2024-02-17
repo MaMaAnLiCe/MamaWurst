@@ -21,7 +21,7 @@ MonoBehaviour:
   interactionWeight: 1
   content: A marker <br> <i>And what a bold color</i>
   folderName: Marker
-  InformationImage: {fileID: 21300000, guid: 98d12bca62b0fcd408460234707e976d, type: 3}
+  InformationImage: {fileID: 21300000, guid: be472630b284a1240a461c7fa98f44a5, type: 3}
   shortDescription: A marker <br> <i>And what a bold color</i>
   MouseClick:
     Guid:
@@ -32,3 +32,4 @@ MonoBehaviour:
     Path: event:/SFX/Tuesday/Marker
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}

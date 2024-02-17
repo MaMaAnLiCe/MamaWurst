@@ -21,7 +21,7 @@ MonoBehaviour:
   interactionWeight: 1
   content: A Ripped hair net<br><i>And why does it smell so weird?</i>
   folderName: Hairnet
-  InformationImage: {fileID: 21300000, guid: 41fed5b9c7cfa464b8f1e185b0cb1787, type: 3}
+  InformationImage: {fileID: 21300000, guid: 818dcaec408e287419d194ac7533e596, type: 3}
   shortDescription: A Ripped hair net<br><i>And why does it smell so weird?</i>
   MouseClick:
     Guid:
@@ -32,3 +32,4 @@ MonoBehaviour:
     Path: event:/SFX/Monday/RippedHairNet
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}

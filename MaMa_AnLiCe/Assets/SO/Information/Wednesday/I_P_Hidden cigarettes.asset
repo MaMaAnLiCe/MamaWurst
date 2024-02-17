@@ -21,7 +21,7 @@ MonoBehaviour:
   interactionWeight: 1
   content: A bunch of cigarette butts <br> <i>And what a hiding spot</i>
   folderName: Hidden cigarettes
-  InformationImage: {fileID: 21300000, guid: a3dfb0cb485eefc4180e30767150e6ea, type: 3}
+  InformationImage: {fileID: 21300000, guid: 2c16217b97592e74ebe0f9722004735f, type: 3}
   shortDescription: A bunch of cigarette butts <br> <i>And what a hiding spot</i>
   MouseClick:
     Guid:
@@ -32,3 +32,4 @@ MonoBehaviour:
     Path: event:/SFX/Wednesday/Cigarettes
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}

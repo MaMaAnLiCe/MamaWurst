@@ -68,7 +68,7 @@ public class DialogInformationSlice : InformationSlice
         }
         else
         {
-            informationImage.sprite = dialoginfo.dialogLines[lineIndex].person.PersonSprite;
+            informationImage.sprite = dialoginfo.dialogLines[lineIndex].person.portraitSprite;
             StartCoroutine(TypeWriter());
         }
         

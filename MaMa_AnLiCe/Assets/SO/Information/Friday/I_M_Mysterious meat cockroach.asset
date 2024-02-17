@@ -21,7 +21,7 @@ MonoBehaviour:
   interactionWeight: 1
   content: Seems like cockroach meat has been added to the mysterious meat
   folderName: Cockroach mysterious meat
-  InformationImage: {fileID: 21300000, guid: 9cf34a8dadf86c44fa54640ac1d36419, type: 3}
+  InformationImage: {fileID: 21300000, guid: 3de0983ba966adc4db4e71c4f010ed3e, type: 3}
   shortDescription: Seems like cockroach meat has been added to the mysterious meat
   MouseClick:
     Guid:
@@ -32,3 +32,4 @@ MonoBehaviour:
     Path: event:/SFX/MysteriousMeat/MysteriousMeat
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}

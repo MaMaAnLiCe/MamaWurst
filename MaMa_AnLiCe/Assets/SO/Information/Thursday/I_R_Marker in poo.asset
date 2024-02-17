@@ -22,7 +22,7 @@ MonoBehaviour:
   content: <i>What a unique color for a marker. What a shame to make it go to waste
     like that<i>
   folderName: Marker in animal excrements
-  InformationImage: {fileID: 21300000, guid: 41fed5b9c7cfa464b8f1e185b0cb1787, type: 3}
+  InformationImage: {fileID: 21300000, guid: 4731d0c882c61c64c98c1e6124575d32, type: 3}
   shortDescription: <i>What a unique color for a marker. What a shame to make it
     go to waste like that<i>
   MouseClick:
@@ -34,3 +34,4 @@ MonoBehaviour:
     Path: event:/SFX/Thursday/MarkerInPoo
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}

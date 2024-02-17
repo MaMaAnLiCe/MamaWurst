@@ -21,7 +21,7 @@ MonoBehaviour:
   interactionWeight: 1
   content: A cage filled to the brim with ravens <br><i>Smart little beasts</i>
   folderName: Raven cage
-  InformationImage: {fileID: 21300000, guid: f9169a0514b223b4ba11f72dc0271a98, type: 3}
+  InformationImage: {fileID: 21300000, guid: f6aee6cd6f899b943912d73b47ed63af, type: 3}
   shortDescription: A cage filled to the brim with ravens <br><i>Smart little beasts</i>
   MouseClick:
     Guid:
@@ -32,3 +32,4 @@ MonoBehaviour:
     Path: event:/SFX/Tuesday/RavenInCage
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}

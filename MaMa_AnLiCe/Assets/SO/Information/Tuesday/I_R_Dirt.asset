@@ -21,7 +21,7 @@ MonoBehaviour:
   interactionWeight: 1
   content: Dirt from the cage and shoes <br> <i>Nothing more nothing less</i>
   folderName: Dirt.. just dirt
-  InformationImage: {fileID: 21300000, guid: 52a22eb97400bdd4ba78330df024728d, type: 3}
+  InformationImage: {fileID: 21300000, guid: dc6fbdbae90fde941920fb1ed9a5f89e, type: 3}
   shortDescription: Dirt from the cage and shoes <br> <i>Nothing more nothing less</i>
   MouseClick:
     Guid:
@@ -32,3 +32,4 @@ MonoBehaviour:
     Path: event:/SFX/Tuesday/Dirt
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}

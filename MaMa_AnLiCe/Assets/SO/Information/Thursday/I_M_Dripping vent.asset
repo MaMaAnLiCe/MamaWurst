@@ -21,7 +21,7 @@ MonoBehaviour:
   interactionWeight: 1
   content: A fluid dripping down the vent<br><i>But why is it so smelly?</i>
   folderName: Dripping vent
-  InformationImage: {fileID: 21300000, guid: 136b0d458c9081d4584989950d02bdbc, type: 3}
+  InformationImage: {fileID: 21300000, guid: 63c9207032c7a5641a993f8bcf78814f, type: 3}
   shortDescription: A fluid dripping down the vent<br><i>But why is it so smelly?</i>
   MouseClick:
     Guid:
@@ -32,3 +32,4 @@ MonoBehaviour:
     Path: event:/SFX/Thursday/DrippingVent
   sortingLayer: Props
   OrderInSortingLayer: 0
+  targetPosition: {x: 0, y: 0, z: 0}
