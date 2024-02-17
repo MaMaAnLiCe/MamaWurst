@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 using DG.Tweening;
 using UnityEngine.UI;
 using TMPro;
+using FMODUnity;
 
 
 public class StartScene : MonoBehaviour
@@ -20,6 +21,13 @@ public class StartScene : MonoBehaviour
     [SerializeField] TextMeshProUGUI passwordTMP;
     [SerializeField] float currentTypeWriterDelay;
     string password;
+
+    [SerializeField] GameObject Button; 
+    [SerializeField] GameObject Logo; 
+    [SerializeField] GameObject LoadingBar; 
+    [SerializeField] GameObject Mask; 
+
+    public EventReference typingSound;
 
     private void Awake()
     {
@@ -45,7 +53,10 @@ public class StartScene : MonoBehaviour
     {
         ButtonsUeberdeckung.raycastTarget = true;
         ButtonsUeberdeckung.DOFade(1, buttonFadeDuration);
-       
+        Button.SetActive(false);
+        Logo.SetActive(false);
+        LoadingBar.SetActive(false);
+        Mask.SetActive(false);
         LoginCanvas.SetActive(true);
         StartCoroutine(TypeWriter());
         yield return null;
@@ -56,6 +67,7 @@ public class StartScene : MonoBehaviour
 
     {
         passwordTMP.text = "";
+        RuntimeManager.PlayOneShot(typingSound);
         yield return new WaitForSeconds(1f);
         
 
