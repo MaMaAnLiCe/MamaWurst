@@ -15,6 +15,8 @@ public class InformationSlice : MonoBehaviour
     public InformationSO information;
     public Vector3 logbookButton;
 
+    public TextMeshProUGUI FolderNameText;
+
     public virtual void InformationSetUp(InformationSO information, Props prop)
     {
         if (information.revealed)
@@ -34,6 +36,8 @@ public class InformationSlice : MonoBehaviour
             informationImage.sprite = information.InformationImage;
             this.prop = prop;
             prop.isrunning = true;
+
+            FolderNameText.text = information.folderName;
 
         }
     }

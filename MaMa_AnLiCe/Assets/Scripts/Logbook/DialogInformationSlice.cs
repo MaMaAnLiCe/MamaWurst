@@ -4,6 +4,7 @@ using System.Data;
 using UnityEngine;
 using UnityEngine.UI;
 using FMODUnity;
+using DG.Tweening;
 
 
 public class DialogInformationSlice : InformationSlice
@@ -19,6 +20,13 @@ public class DialogInformationSlice : InformationSlice
     [SerializeField] Button skipButton;
     public StudioEventEmitter emitter;
 
+    [SerializeField] float tweenScaleStrength;
+    [SerializeField] Vector3 tweenMoveStrength;
+    [SerializeField] float Tweenduration;
+    [SerializeField] Ease tweenScaleEase;
+    [SerializeField] Ease tweenMoveEase;
+
+
     public override void InformationSetUp(InformationSO information, Props prop)
     {
         if (information.revealed)
@@ -30,6 +38,24 @@ public class DialogInformationSlice : InformationSlice
             this.prop = prop;
             prop.isrunning = true;
         }
+
+        Sequence sequence = DOTween.Sequence();
+
+        //sequence.Append(continueButton.transform.DOScale(continueButton.transform.localScale + Vector3.one * tweenScaleStrength, Tweenduration / 2));
+        //sequence.Append(continueButton.transform.DOScale(continueButton.transform.localScale - Vector3.one * tweenScaleStrength, Tweenduration / 2));
+        sequence.Append(continueButton.transform.DOPunchScale(Vector3.one * tweenScaleStrength, Tweenduration).SetEase(tweenScaleEase));
+        sequence.Insert(0,skipButton.transform.DOPunchScale(Vector3.one * tweenScaleStrength, Tweenduration).SetEase(tweenScaleEase));
+
+        sequence.Insert(0, continueButton.transform.DOPunchPosition(tweenMoveStrength, Tweenduration).SetEase(tweenMoveEase));
+        sequence.Insert(0, skipButton.transform.DOPunchPosition(tweenMoveStrength, Tweenduration).SetEase(tweenMoveEase));
+
+        //sequence.Insert(0, continueButton.transform.DOMove(continueButton.transform.position + tweenMoveStrength, Tweenduration / 2));
+        //sequence.Insert(Tweenduration / 2, continueButton.transform.DOMove(continueButton.transform.position - tweenMoveStrength, Tweenduration / 2));
+
+        sequence.SetLoops(-1);
+        sequence.Play();
+
+
     }
 
     public void TypeNextLine()

@@ -11,5 +11,10 @@ public class DetailedInfoSlice : InformationSlice
         base.InformationSetUp(information);
         TitleTMP.text = information.folderName;
         content.text = information.content;
+
+        if(information is DialogInormationSO)
+        {
+            informationImage.gameObject.SetActive(false);
+        }
     }
 }

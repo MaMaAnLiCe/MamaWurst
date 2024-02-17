@@ -43,7 +43,7 @@ public class OptionMenu : MonoBehaviour
     {
         MasterBus = FMODUnity.RuntimeManager.GetBus("bus:/");
         SFXBus = FMODUnity.RuntimeManager.GetBus("bus:/SFX");
-        MasterBus = FMODUnity.RuntimeManager.GetBus("bus:/Story"); 
+        StoryBus = FMODUnity.RuntimeManager.GetBus("bus:/Story"); 
         
         FullScreenToggle.isOn = settingsSO.Fullscreen;
         MasterSlider.value = settingsSO.MasterVolume;

@@ -33,7 +33,7 @@ public class Props : MonoBehaviour, IPointerClickHandler
         }
         
         infoSlice.InformationSetUp(propInfo, this);
-
+        GetComponent<FMODUnity.StudioEventEmitter>().Play();
     }
 
     public void SetUp(InformationSO information)

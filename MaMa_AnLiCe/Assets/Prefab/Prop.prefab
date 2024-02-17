@@ -123,7 +123,7 @@ MonoBehaviour:
       Data4: 0
     Path: 
   Event: 
-  PlayEvent: 16
+  PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0

@@ -8,7 +8,15 @@ public class Shutdown : MonoBehaviour
     public float shutdownDuration;
 
     public EventReference shutdownSound;
+
+    public GameObject ShutdownConfirmation;
+
     public void ShutDownButton()
+    {
+        ShutdownConfirmation.SetActive(true);
+    }
+
+    public void QuitGame()
     {
         StartCoroutine(ShutdownCoroutine());
     }
